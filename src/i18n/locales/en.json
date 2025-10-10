@@ -125,6 +125,45 @@
       }
     }
   },
+  "contact": {
+    "hero": {
+      "title": "Let's Start",
+      "subtitle": "the Conversation!"
+    },
+    "info": {
+      "phone": "Phone Number",
+      "email": "Email address", 
+      "hours": "Working hours",
+      "hoursValue": "09AM - 05PM"
+    },
+    "offices": {
+      "korea": {
+        "title": "KR Korea Office",
+        "location": "Seoul, South Korea"
+      },
+      "india": {
+        "title": "IN India Office", 
+        "location": "Mumbai, India"
+      }
+    },
+    "quickConsultation": "Quick Consultation",
+    "getExpertAdvice": "Get expert advice",
+    "in24Hours": "in 24 hours",
+    "yourName": "Your Name",
+    "company": "Company",
+    "emailAddress": "Email Address",
+    "selectServiceInterest": "Select Service Interest",
+    "tellUsAboutGoals": "Tell us about your expansion goals...",
+    "requestConsultation": "Request Consultation",
+    "informationSecure": "Your information is secure and confidential",
+    "phoneNumber": "Phone Number",
+    "businessConsulting": "Business Consulting",
+    "marketEntry": "Market Entry Support",
+    "partnershipDevelopment": "Partnership Development",
+    "culturalExchange": "Cultural Exchange Programs",
+    "strategicPlanning": "Strategic Planning",
+    "other": "Other"
+  },
   "banner": {
     "slide1": {
       "title": "Market Entry",
@@ -412,25 +451,6 @@
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service",
     "cookiePolicy": "Cookie Policy"
-  },
-  "contact": {
-    "quickConsultation": "Quick Consultation",
-    "getExpertAdvice": "Get expert advice",
-    "in24Hours": "in 24 hours",
-    "yourName": "Your Name",
-    "company": "Company",
-    "emailAddress": "Email Address",
-    "selectServiceInterest": "Select Service Interest",
-    "tellUsAboutGoals": "Tell us about your expansion goals...",
-    "requestConsultation": "Request Consultation",
-    "informationSecure": "Your information is secure and confidential",
-    "phoneNumber": "Phone Number",
-    "businessConsulting": "Business Consulting",
-    "marketEntry": "Market Entry Support",
-    "partnershipDevelopment": "Partnership Development",
-    "culturalExchange": "Cultural Exchange Programs",
-    "strategicPlanning": "Strategic Planning",
-    "other": "Other"
   },
   "common": {
     "submit": "Submit",

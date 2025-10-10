@@ -1,3 +1,5 @@
+import { useTranslation } from "react-i18next"
+
 interface DataType {
    id: number;
    title: string;
@@ -6,44 +8,32 @@ interface DataType {
    email: string;
 }
 
-const contact_data: DataType[] = [
-   {
-      id: 1,
-      title: "New York, USA",
-      desc: "44 Madison Avenue, Suite 1500, New York, NY 10010",
-      number: "+880-123-4567",
-      email: "demo@mail.com"
-   },
-   {
-      id: 2,
-      title: "London, UK",
-      desc: "22 Fleet Street, Floor 4, London EC4Y 1AA",
-      number: "+880-123-4567",
-      email: "demo@mail.com"
-   },
-   {
-      id: 3,
-      title: "Toronto, Canada",
-      desc: "150 King Street West, Suite 200, Toronto, ON M5H 1J9",
-      number: "+880-123-4567",
-      email: "demo@mail.com"
-   },
-   {
-      id: 4,
-      title: "Sydney, Australia",
-      desc: "Level 10, 123 Pitt Street, Sydney, NSW 2000",
-      number: "+880-123-4567",
-      email: "demo@mail.com"
-   },
-];
-
 const ContactInfoTwo = () => {
+   const { t } = useTranslation()
+
+   const contact_data: DataType[] = [
+      {
+         id: 1,
+         title: t('contact.offices.korea.title'),
+         desc: t('contact.offices.korea.location'),
+         number: "+82-2-1234-5678",
+         email: "korea@starajin.com"
+      },
+      {
+         id: 2,
+         title: t('contact.offices.india.title'), 
+         desc: t('contact.offices.india.location'),
+         number: "+91-22-9876-5432",
+         email: "india@starajin.com"
+      }
+   ]
+
    return (
       <section className="mail-adres-section section-bg pb-100">
          <div className="container">
-            <div className="row g-xl-4 g-3">
+            <div className="row g-xl-4 g-3 justify-content-center">
                {contact_data.map((item) => (
-                  <div key={item.id} className="col-sm-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay=".1s">
+                  <div key={item.id} className="col-sm-6 col-lg-6 col-xl-6 wow fadeInUp" data-wow-delay=".1s">
                      <div className="mail-address-items">
                         <h5 className="theme-clr4 border-bottom pb-3 mb-3">{item.title}</h5>
                         <p className="theme-clr4 mb-40">{item.desc}</p>

@@ -120,6 +120,45 @@
       }
     }
   },
+  "contact": {
+    "hero": {
+      "title": "대화를 시작해요",
+      "subtitle": "지금 바로!"
+    },
+    "info": {
+      "phone": "전화번호",
+      "email": "이메일 주소", 
+      "hours": "근무시간",
+      "hoursValue": "오전 9시 - 오후 5시"
+    },
+    "offices": {
+      "korea": {
+        "title": "한국 사무소",
+        "location": "서울, 대한민국"
+      },
+      "india": {
+        "title": "인도 사무소", 
+        "location": "뭄바이, 인도"
+      }
+    },
+    "quickConsultation": "빠른 상담",
+    "getExpertAdvice": "전문가 조언을",
+    "in24Hours": "24시간 내에 받으세요",
+    "yourName": "성함",
+    "company": "회사명",
+    "emailAddress": "이메일 주소",
+    "selectServiceInterest": "관심 서비스 선택",
+    "tellUsAboutGoals": "확장 목표에 대해 알려주세요...",
+    "requestConsultation": "상담 요청",
+    "informationSecure": "귀하의 정보는 안전하고 기밀이 보장됩니다",
+    "phoneNumber": "전화번호",
+    "businessConsulting": "비즈니스 컨설팅",
+    "marketEntry": "시장 진입 지원",
+    "partnershipDevelopment": "파트너십 개발",
+    "culturalExchange": "문화 교류 프로그램",
+    "strategicPlanning": "전략 기획",
+    "other": "기타"
+  },
   "menu": {
     "projects": "프로젝트",
     "case-studies": "사례연구",
@@ -415,25 +454,6 @@
     "privacyPolicy": "개인정보처리방침",
     "termsOfService": "서비스 약관",
     "cookiePolicy": "쿠키 정책"
-  },
-  "contact": {
-    "quickConsultation": "빠른 상담",
-    "getExpertAdvice": "전문가 조언을",
-    "in24Hours": "24시간 내에 받으세요",
-    "yourName": "성함",
-    "company": "회사명",
-    "emailAddress": "이메일 주소",
-    "selectServiceInterest": "관심 서비스 선택",
-    "tellUsAboutGoals": "확장 목표에 대해 알려주세요...",
-    "requestConsultation": "상담 요청",
-    "informationSecure": "귀하의 정보는 안전하고 기밀이 보장됩니다",
-    "phoneNumber": "전화번호",
-    "businessConsulting": "비즈니스 컨설팅",
-    "marketEntry": "시장 진입 지원",
-    "partnershipDevelopment": "파트너십 개발",
-    "culturalExchange": "문화 교류 프로그램",
-    "strategicPlanning": "전략 기획",
-    "other": "기타"
   },
   "common": {
     "submit": "제출",

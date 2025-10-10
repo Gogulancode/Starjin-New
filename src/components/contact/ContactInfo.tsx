@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom"
+import { useTranslation } from "react-i18next"
 
 const ContactInfo = () => {
+   const { t } = useTranslation()
+   
    return (
       <section className="contact-mail-section section-bg pt-100">
          <div className="container">
@@ -24,9 +27,9 @@ const ContactInfo = () => {
                               fill="#1C4B42" />
                         </svg>
                      </div>
-                     <span className="theme-clr4 d-block mb-00">Phone Number</span>
+                     <span className="theme-clr4 d-block mb-00">{t('contact.info.phone')}</span>
                      <h5>
-                        <Link to="tel:+11002345909" className="fw-bold theme-clr4">+880-123-4567</Link>
+                        <Link to="tel:+8202123456780" className="fw-bold theme-clr4">+82-2-1234-5678</Link>
                      </h5>
                   </div>
                </div>
@@ -39,9 +42,9 @@ const ContactInfo = () => {
                               fill="#1C4B42" />
                         </svg>
                      </div>
-                     <span className="theme-clr4 d-block mb-00">Email address</span>
+                     <span className="theme-clr4 d-block mb-00">{t('contact.info.email')}</span>
                      <h5>
-                        <Link to="mailto:demo@example.com" className="fw-bold theme-clr4">demo@mail.com</Link>
+                        <Link to="mailto:korea@starajin.com" className="fw-bold theme-clr4">korea@starajin.com</Link>
                      </h5>
                   </div>
                </div>
@@ -54,9 +57,9 @@ const ContactInfo = () => {
                               fill="#1C4B42" />
                         </svg>
                      </div>
-                     <span className="theme-clr4 d-block mb-00">Working hours</span>
+                     <span className="theme-clr4 d-block mb-00">{t('contact.info.hours')}</span>
                      <h5>
-                        <Link to="/contact" className="fw-bold theme-clr4">09AM - 05PM</Link>
+                        <Link to="/contact" className="fw-bold theme-clr4">{t('contact.info.hoursValue')}</Link>
                      </h5>
                   </div>
                </div>
