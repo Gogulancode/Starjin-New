@@ -186,15 +186,15 @@ const FooterOne = () => {
                               <div className="text-white opacity-75 small">
                                  <div className="d-flex align-items-start gap-2 mb-2">
                                     <i className="fa-light fa-map-marker-alt mt-1" style={{ fontSize: '16px', flexShrink: 0 }}></i>
-                                    <span>Seoul, South Korea</span>
+                                    <span>{t('footer.seoulLocation')}</span>
                                  </div>
                                  <div className="d-flex align-items-center gap-2 mb-2">
                                     <i className="fa-light fa-phone" style={{ fontSize: '16px', flexShrink: 0 }}></i>
-                                    <span>+82-2-1234-5678</span>
+                                    <span>{t('footer.koreaPhone')}</span>
                                  </div>
                                  <div className="d-flex align-items-center gap-2">
                                     <i className="fa-light fa-envelope" style={{ fontSize: '16px', flexShrink: 0 }}></i>
-                                    <span>korea@starajin.com</span>
+                                    <span>{t('footer.koreaEmail')}</span>
                                  </div>
                               </div>
                            </div>
@@ -207,15 +207,15 @@ const FooterOne = () => {
                               <div className="text-white opacity-75 small">
                                  <div className="d-flex align-items-start gap-2 mb-2">
                                     <i className="fa-light fa-map-marker-alt mt-1" style={{ fontSize: '16px', flexShrink: 0 }}></i>
-                                    <span>Mumbai, India</span>
+                                    <span>{t('footer.mumbaiLocation')}</span>
                                  </div>
                                  <div className="d-flex align-items-center gap-2 mb-2">
                                     <i className="fa-light fa-phone" style={{ fontSize: '16px', flexShrink: 0 }}></i>
-                                    <span>+91-22-9876-5432</span>
+                                    <span>{t('footer.indiaPhone')}</span>
                                  </div>
                                  <div className="d-flex align-items-center gap-2">
                                     <i className="fa-light fa-envelope" style={{ fontSize: '16px', flexShrink: 0 }}></i>
-                                    <span>india@starajin.com</span>
+                                    <span>{t('footer.indiaEmail')}</span>
                                  </div>
                               </div>
                            </div>

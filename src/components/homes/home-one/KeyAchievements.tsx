@@ -20,39 +20,14 @@ const KeyAchievements = () => {
     threshold: 0.1,
   });
 
-  const timelineItems: TimelineItem[] = [
-    {
-      id: 1,
-      title: "Led G2B & B2B MoU signing ; Business Entry & network creation",
-      icon: Building2,
-      items: [
-        "G2B MoU : Softberry with Rajasthan Government",
-        "B2B MoU : Sogang Startup Innovation Center with i-Hub Divya Sampark",
-        "Sogang University with IIT Roorkee"
-      ]
-    },
-    {
-      id: 2,
-      title: "Culture Exchange Projects",
-      icon: Globe,
-      items: [
-        "KOFICE Local Culture international Exchange project",
-        "Launching Indian Bestseller Book <Super 30>, translated in Korean",
-        "Organized <Korea Edu Tour 2025, Pune>, Networking with Educationist",
-        "Advisor of <India-Korea Artist Camp> organized by Namisland Culture and education group"
-      ]
-    },
-    {
-      id: 3,
-      title: "Various Business Consulting cases",
-      icon: Briefcase,
-      items: [
-        "Incorporation 10+ / Partner matching 100+ / Strategy planning 15+",
-        "JV Partner Due Diligence : 2+ / New Business plan consultation : 10+",
-        "Opinion Lead(Seminar / Speaker / Column report / Market report) : 100+"
-      ]
-    }
-  ];
+  const achievementsData = t('achievements.stats', { returnObjects: true }) as any[];
+  
+  const timelineItems: TimelineItem[] = achievementsData.map((item, index) => ({
+    id: index + 1,
+    title: item.label + (item.description ? ` ; ${item.description}` : ''),
+    icon: [Building2, Globe, Briefcase][index] || Building2,
+    items: item.items
+  }));
 
   return (
     <motion.section 

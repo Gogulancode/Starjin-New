@@ -181,7 +181,24 @@
     "subtitle": "최신 한국-인도 비즈니스 트렌드 및 업데이트",
     "description": "전문가 분석 및 시장 인사이트로 정보를 얻으세요",
     "viewAll": "모든 인사이트 보기",
-    "readMore": "더 읽기"
+    "readMore": "더 읽기",
+    "posts": [
+      {
+        "id": 1,
+        "tag": "무역",
+        "title": "한국-인도 무역 관계, 2024년 새로운 정점에 도달"
+      },
+      {
+        "id": 2,
+        "tag": "기술",
+        "title": "한국 스타트업, 인도 시장 진출 확대 모색"
+      },
+      {
+        "id": 3,
+        "tag": "문화",
+        "title": "문화 교류 프로그램, 유망한 결과 보여"
+      }
+    ]
   },
   "footer": {
     "description": "전문 컨설팅과 문화 교류를 통해 한국의 혁신과 인도의 기회를 연결합니다.",
@@ -193,6 +210,12 @@
     "contactUs": "문의하기",
     "koreaOffice": "한국 사무소",
     "indiaOffice": "인도 사무소",
+    "seoulLocation": "서울, 대한민국",
+    "mumbaiLocation": "뭄바이, 인도",
+    "koreaEmail": "korea@starajin.com",
+    "indiaEmail": "india@starajin.com",
+    "koreaPhone": "+82-2-1234-5678",
+    "indiaPhone": "+91-22-9876-5432",
     "rights": "© 2025 StaraJIN, Inc. 모든 권리 보유.",
     "privacyPolicy": "개인정보처리방침",
     "termsOfService": "서비스 약관",

@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom"
 import { useTranslation } from "react-i18next"
-import blog_data from "../../../data/BlogData"
 
 const Blog = () => {
    const { t } = useTranslation();
+   const blogPosts = t('insights.posts', { returnObjects: true }) as any[];
    
    return (
       <section className="blog-section pt-100 pb-100">
@@ -30,11 +30,11 @@ const Blog = () => {
                </div>
             </div>
             <div className="row g-4">
-               {blog_data.filter((items) => items.page === "home_1").map((item) => (
+               {blogPosts.map((item, index) => (
                   <div key={item.id} className="col-md-6 col-lg-4">
                      <div className="team-items hover-translate8 px-xxl-6 px-xl-4 px-3 section-bg rounded-4">
                         <div className="thumb w-100 overflow-hidden">
-                           <img src={item.thumb} alt="img" className="w-100 rounded-bottom-3" />
+                           <img src={`/assets/img/team/team${index + 1}.png`} alt="img" className="w-100 rounded-bottom-3" />
                         </div>
                         <div className="content d-flex align-items-end gap-3 justify-content-between">
                            <div>

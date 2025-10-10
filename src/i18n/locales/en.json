@@ -181,7 +181,24 @@
     "subtitle": "Latest Korea-India Business Trends & Updates",
     "description": "Stay informed with our expert analysis and market insights",
     "viewAll": "View All Insights",
-    "readMore": "Read More"
+    "readMore": "Read More",
+    "posts": [
+      {
+        "id": 1,
+        "tag": "Trade",
+        "title": "Korea–India Trade Relations Reach New Heights in 2024"
+      },
+      {
+        "id": 2,
+        "tag": "Technology",
+        "title": "Korean Startups Eye Indian Market Expansion"
+      },
+      {
+        "id": 3,
+        "tag": "Culture",
+        "title": "Cultural Exchange Programs Show Promising Results"
+      }
+    ]
   },
   "footer": {
     "description": "Bridging Korean innovation with Indian opportunities through expert consulting and cultural exchange.",
@@ -193,6 +210,12 @@
     "contactUs": "Contact Us",
     "koreaOffice": "Korea Office",
     "indiaOffice": "India Office",
+    "seoulLocation": "Seoul, South Korea",
+    "mumbaiLocation": "Mumbai, India",
+    "koreaEmail": "korea@starajin.com",
+    "indiaEmail": "india@starajin.com",
+    "koreaPhone": "+82-2-1234-5678",
+    "indiaPhone": "+91-22-9876-5432",
     "rights": "© 2025 StaraJIN, Inc. All rights reserved.",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service",
