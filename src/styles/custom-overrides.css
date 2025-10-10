@@ -1,0 +1,118 @@
+/* ===================================================
+   CLEAN CUSTOM OVERRIDES FOR INDUSTRIES SECTION ONLY
+   ================================================== */
+
+/* Industries Section - Extended Background Image Coverage */
+.industries-section {
+  position: relative;
+  background-image: url('assets/img/element/industry-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 700px !important;
+  padding: 30px 0 50px 0 !important;
+}
+
+.industries-section .container {
+  position: relative;
+  z-index: 2;
+}
+
+/* Left-align section title like other sections */
+.industries-section .section-title {
+  text-align: left !important;
+  font-size: 2.5rem !important;
+  font-weight: bold !important;
+  color: #333 !important;
+  margin-bottom: 1rem !important;
+  margin-top: 0 !important;
+}
+
+/* Move title row up */
+.industries-section .row.mb-5 {
+  margin-bottom: 0.5rem !important;
+}
+
+/* Graph image container */
+.graph-image-container {
+  position: relative;
+  border-radius: 12px !important;
+  overflow: hidden !important;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15) !important;
+}
+
+/* Smaller text sizes for better readability */
+.industries-section .industry-title,
+.industries-section ul li .industry-title,
+.industries-section .boxex .industry-title {
+  font-size: 1.2rem !important;
+  font-weight: 600 !important;
+  color: #333 !important;
+  margin-bottom: 0.5rem !important;
+  line-height: 1.4 !important;
+}
+
+.industries-section .industry-description,
+.industries-section ul li .industry-description,
+.industries-section .boxex .industry-description {
+  font-size: 1rem !important;
+  line-height: 1.5 !important;
+  margin-top: 0.3rem !important;
+  color: #666 !important;
+}
+
+/* Enhanced readability with better spacing */
+.industries-section ul li {
+  margin-bottom: 0.8rem !important;
+  padding: 0 !important;
+  color: #333 !important;
+}
+
+/* Ensure content stays within background image bounds and starts higher */
+.industries-section .boxex {
+  padding: 0 1rem !important;
+  max-height: 100% !important;
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+/* Tighter spacing for content rows */
+.industries-section .row.g-4 {
+  margin-top: 0 !important;
+}
+
+/* Reset list styles */
+.industries-section ul {
+  padding-left: 0 !important;
+  margin-bottom: 0 !important;
+  list-style: none !important;
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+  .industries-section {
+    min-height: 500px !important;
+    padding: 20px 0 30px 0 !important;
+  }
+  
+  .industries-section .section-title {
+    font-size: 1.8rem !important;
+    margin-bottom: 1rem !important;
+  }
+  
+  .industries-section .container {
+    padding: 0 15px !important;
+  }
+  
+  .industries-section .boxex {
+    padding: 0 0.5rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 10px;
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "projects": "Projects",
+    "case-studies": "Case Studies",
+    "blog": "Blog",
+    "contact": "Contact",
+    "pages": "Pages"
+  },
+  "banner": {
+    "slide1": {
+      "title": "Market Entry",
+      "subtitle": "Strategy",
+      "description": "Transform your business aspirations into reality with our comprehensive market entry solutions for Korean markets.",
+      "cta": "Start Your Journey",
+      "features": [
+        "Comprehensive Market Analysis",
+        "Regulatory Compliance Support", 
+        "Local Partnership Development",
+        "Cultural Integration Guidance"
+      ]
+    },
+    "slide2": {
+      "title": "Korean Market",
+      "subtitle": "Expansion", 
+      "description": "Navigate the Korean business landscape with confidence through our expert guidance and local market insights for sustainable growth.",
+      "cta": "Explore Solutions",
+      "features": [
+        "Strategic Market Research",
+        "Business Model Optimization",
+        "Stakeholder Relationship Building",
+        "Sustainable Growth Planning"
+      ]
+    },
+    "slide3": {
+      "title": "Cultural Exchange",
+      "subtitle": "Programs",
+      "description": "Foster meaningful connections between Korea and India through our comprehensive cultural exchange and business collaboration initiatives.",
+      "cta": "Join Programs",
+      "features": [
+        "Cross-Cultural Training",
+        "Educational Exchange Programs", 
+        "Business Delegation Services",
+        "Cultural Event Coordination"
+      ]
+    }
+  },
+  "choose": {
+    "title": "Why Choose Us",
+    "subtitle": "Your Trusted Partner for Korea-India Business Success",
+    "items": [
+      {
+        "title": "Expert Market Knowledge",
+        "description": "Deep understanding of both Korean and Indian markets with proven strategies for successful business expansion."
+      },
+      {
+        "title": "Cultural Bridge",
+        "description": "Seamless cultural integration support to ensure smooth business relationships and communications."
+      },
+      {
+        "title": "Proven Track Record",
+        "description": "15+ years of successful Korea-India business facilitation with 50+ satisfied clients."
+      },
+      {
+        "title": "End-to-End Solutions",
+        "description": "Comprehensive services from market research to business establishment and ongoing support."
+      }
+    ]
+  },
+  "achievements": {
+    "title": "Key Achievements",
+    "subtitle": "Milestones in Korea-India Business Collaboration",
+    "stats": [
+      {
+        "number": "50+",
+        "label": "Led G2B & B2B MoU signing",
+        "description": "Business Entry & network creation",
+        "items": [
+          "G2B MoU : Softberry with Rajasthan Government",
+          "B2B MoU : Sogang Startup Innovation Center with i-Hub Divya Sampark",
+          "Sogang University with IIT Roorkee"
+        ]
+      },
+      {
+        "number": "₹500Cr+",
+        "label": "Culture Exchange Projects",
+        "description": "",
+        "items": [
+          "KOFICE Local Culture international Exchange project",
+          "Launching Indian Bestseller Book <Super 30>, translated in Korean",
+          "Organized <Korea Edu Tour 2025, Pune>, Networking with Educationist",
+          "Advisor of <India-Korea Artist Camp> organized by Namisland Culture and education group"
+        ]
+      },
+      {
+        "number": "25+",
+        "label": "Various Business Consulting cases",
+        "description": "",
+        "items": [
+          "Incorporation 10+ / Partner matching 100+ / Strategy planning 15+",
+          "JV Partner Due Dilligence : 2+ / New Business plan consultation : 10+",
+          "Opinion Lead(Seminar / Speaker / Column report / Market report) : 100+"
+        ]
+      },
+      {
+        "number": "15+",
+        "label": "Years of Excellence",
+        "description": "Proven track record in Korea-India business",
+        "items": []
+      }
+    ]
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive Korea-India Business Solutions",
+    "businessDev": "Business Development",
+    "consulting": "Business Strategy & Consulting", 
+    "partnerMatching": "B2B Partner Matching",
+    "cultural": "Art & Cultural Exchange",
+    "items": [
+      {
+        "title": "Market Entry Strategy",
+        "description": "Comprehensive market analysis and entry strategies for Korean markets with regulatory compliance support."
+      },
+      {
+        "title": "Business Consulting",
+        "description": "Strategic business consulting services tailored for Korea-India business relationships and market dynamics."
+      },
+      {
+        "title": "Partnership Development", 
+        "description": "B2B partnership facilitation and relationship building between Korean and Indian companies."
+      },
+      {
+        "title": "Cultural Exchange Programs",
+        "description": "Educational and cultural exchange initiatives to foster stronger Korea-India business relationships."
+      }
+    ]
+  },
+  "partners": {
+    "title": "Trust & Partnership",
+    "subtitle": "CLIENTS",
+    "description": "Building lasting relationships with leading organizations across Korea and India"
+  },
+  "industries": {
+    "title": "Indian Market Entry Consulting",
+    "subtitle": "Industries",
+    "description": "Expert guidance for successful market penetration with comprehensive consulting services tailored for Korean companies.",
+    "items": [
+      {
+        "title": "Incorporation & other supports",
+        "description": "We support the entire process of company incorporation in India."
+      },
+      {
+        "title": "Factory site search and negotiation", 
+        "description": "Support in the search for the best location for your business and in contract negotiations."
+      },
+      {
+        "title": "Customized regulatory compliance strategies",
+        "description": "Provides customised strategies for complex Indian regulations & policies."
+      },
+      {
+        "title": "Localization spot analysis & Market selection",
+        "description": "Data-based positioning analysis that considers multiple attributes to select the best markets."
+      }
+    ]
+  },
+  "insights": {
+    "title": "Insights",
+    "subtitle": "Latest Korea-India Business Trends & Updates",
+    "description": "Stay informed with our expert analysis and market insights",
+    "viewAll": "View All Insights",
+    "readMore": "Read More"
+  },
+  "footer": {
+    "description": "Bridging Korean innovation with Indian opportunities through expert consulting and cultural exchange.",
+    "stayUpdated": "Stay Updated",
+    "getLatestInsights": "Get the latest Korea-India business insights",
+    "enterEmail": "Enter your email",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "contactUs": "Contact Us",
+    "koreaOffice": "Korea Office",
+    "indiaOffice": "India Office",
+    "rights": "© 2025 StaraJIN, Inc. All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "cookiePolicy": "Cookie Policy"
+  },
+  "contact": {
+    "quickConsultation": "Quick Consultation",
+    "getExpertAdvice": "Get expert advice",
+    "in24Hours": "in 24 hours",
+    "yourName": "Your Name",
+    "company": "Company",
+    "emailAddress": "Email Address",
+    "selectServiceInterest": "Select Service Interest",
+    "tellUsAboutGoals": "Tell us about your expansion goals...",
+    "requestConsultation": "Request Consultation",
+    "informationSecure": "Your information is secure and confidential",
+    "phoneNumber": "Phone Number",
+    "businessConsulting": "Business Consulting",
+    "marketEntry": "Market Entry Support",
+    "partnershipDevelopment": "Partnership Development",
+    "culturalExchange": "Cultural Exchange Programs",
+    "strategicPlanning": "Strategic Planning",
+    "other": "Other"
+  },
+  "common": {
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "warning": "Warning",
+    "info": "Information",
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "viewMore": "View More"
+  }
+}

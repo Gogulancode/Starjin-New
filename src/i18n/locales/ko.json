@@ -1,0 +1,228 @@
+{
+  "nav": {
+    "home": "홈",
+    "about": "회사소개",
+    "services": "서비스",
+    "projects": "프로젝트",
+    "case-studies": "케이스 스터디",
+    "blog": "블로그",
+    "contact": "연락처",
+    "pages": "페이지"
+  },
+  "banner": {
+    "slide1": {
+      "title": "시장 진출",
+      "subtitle": "전략",
+      "description": "한국 시장 진출을 위한 포괄적인 솔루션으로 비즈니스 목표를 현실로 만들어보세요.",
+      "cta": "여정 시작하기",
+      "features": [
+        "종합적인 시장 분석",
+        "규제 준수 지원",
+        "현지 파트너십 개발",
+        "문화 통합 가이드"
+      ]
+    },
+    "slide2": {
+      "title": "한국 시장",
+      "subtitle": "확장",
+      "description": "전문가 가이드와 현지 시장 인사이트를 통해 한국 비즈니스 환경을 자신 있게 탐색하고 지속 가능한 성장을 이루세요.",
+      "cta": "솔루션 살펴보기",
+      "features": [
+        "전략적 시장 조사",
+        "비즈니스 모델 최적화",
+        "이해관계자 관계 구축",
+        "지속 가능한 성장 계획"
+      ]
+    },
+    "slide3": {
+      "title": "문화 교류",
+      "subtitle": "프로그램",
+      "description": "포괄적인 문화 교류 및 비즈니스 협력 이니셔티브를 통해 한국과 인도 간의 의미 있는 연결을 조성하세요.",
+      "cta": "프로그램 참여하기",
+      "features": [
+        "상호 문화 교육",
+        "교육 교류 프로그램",
+        "비즈니스 대표단 서비스",
+        "문화 이벤트 조정"
+      ]
+    }
+  },
+  "choose": {
+    "title": "왜 저희를 선택하세요",
+    "subtitle": "한국-인도 비즈니스 성공을 위한 신뢰할 수 있는 파트너",
+    "items": [
+      {
+        "title": "전문 시장 지식",
+        "description": "성공적인 비즈니스 확장을 위한 검증된 전략으로 한국과 인도 시장에 대한 깊은 이해를 제공합니다."
+      },
+      {
+        "title": "문화적 다리",
+        "description": "원활한 비즈니스 관계와 소통을 보장하는 원활한 문화 통합 지원을 제공합니다."
+      },
+      {
+        "title": "검증된 실적",
+        "description": "50명 이상의 만족한 고객과 함께 15년 이상의 성공적인 한국-인도 비즈니스 촉진 경험을 보유하고 있습니다."
+      },
+      {
+        "title": "종합 솔루션",
+        "description": "시장 조사부터 비즈니스 설립 및 지속적인 지원까지 포괄적인 서비스를 제공합니다."
+      }
+    ]
+  },
+  "achievements": {
+    "title": "주요 성과",
+    "subtitle": "한국-인도 비즈니스 협력의 이정표",
+    "stats": [
+      {
+        "number": "50+",
+        "label": "G2B 및 B2B MoU 체결 주도",
+        "description": "비즈니스 진출 및 네트워크 구축",
+        "items": [
+          "G2B MoU : 소프트베리와 라자스탄 정부",
+          "B2B MoU : 서강창업혁신센터와 i-Hub 디브야 삼파르크",
+          "서강대학교와 IIT 루르키"
+        ]
+      },
+      {
+        "number": "₹500억+",
+        "label": "문화 교류 프로젝트",
+        "description": "",
+        "items": [
+          "한국국제문화교류진흥원 지역문화 국제교류 프로젝트",
+          "인도 베스트셀러 도서 <슈퍼 30> 한국어 번역 출간",
+          "<2025 코리아 에듀 투어, 푸네> 개최, 교육계 네트워킹",
+          "남이섬 문화교육그룹 주최 <인도-한국 아티스트 캠프> 어드바이저"
+        ]
+      },
+      {
+        "number": "25+",
+        "label": "다양한 비즈니스 컨설팅 사례",
+        "description": "",
+        "items": [
+          "법인설립 10+ / 파트너 매칭 100+ / 전략 기획 15+",
+          "JV 파트너 실사 : 2+ / 신사업 계획 컨설팅 : 10+",
+          "오피니언 리더(세미나 / 강연 / 칼럼 보고서 / 시장 보고서) : 100+"
+        ]
+      },
+      {
+        "number": "15+",
+        "label": "우수성의 년수",
+        "description": "한국-인도 비즈니스 분야 입증된 실적",
+        "items": []
+      }
+    ]
+  },
+  "services": {
+    "title": "우리의 서비스",
+    "subtitle": "종합적인 한국-인도 비즈니스 솔루션",
+    "businessDev": "비즈니스 개발",
+    "consulting": "비즈니스 전략 및 컨설팅",
+    "partnerMatching": "B2B 파트너 매칭",
+    "cultural": "예술 및 문화 교류",
+    "items": [
+      {
+        "title": "시장 진출 전략",
+        "description": "규제 준수 지원과 함께 한국 시장을 위한 포괄적인 시장 분석 및 진출 전략."
+      },
+      {
+        "title": "비즈니스 컨설팅",
+        "description": "한국-인도 비즈니스 관계 및 시장 역학에 맞춘 전략적 비즈니스 컨설팅 서비스."
+      },
+      {
+        "title": "파트너십 개발",
+        "description": "한국과 인도 기업 간 B2B 파트너십 촉진 및 관계 구축."
+      },
+      {
+        "title": "문화 교류 프로그램",
+        "description": "더 강한 한국-인도 비즈니스 관계를 조성하기 위한 교육 및 문화 교류 이니셔티브."
+      }
+    ]
+  },
+  "partners": {
+    "title": "신뢰 및 파트너십",
+    "subtitle": "우리의 파트너 및 고객",
+    "description": "한국과 인도의 주요 조직과 지속적인 관계를 구축합니다"
+  },
+  "industries": {
+    "title": "인도 시장 진출 컨설팅",
+    "subtitle": "산업 분야",
+    "description": "한국 기업을 위한 맞춤형 종합 컨설팅 서비스로 성공적인 시장 침투를 위한 전문 가이드",
+    "items": [
+      {
+        "title": "법인설립 및 기타 지원",
+        "description": "인도 내 법인 설립 전 과정을 지원합니다."
+      },
+      {
+        "title": "공장 부지 검색 및 협상",
+        "description": "비즈니스에 최적의 위치 찾기와 계약 협상을 지원합니다."
+      },
+      {
+        "title": "맞춤형 규제 준수 전략",
+        "description": "복잡한 인도 규제 및 정책에 대한 맞춤형 전략을 제공합니다."
+      },
+      {
+        "title": "현지화 분석 및 시장 선택",
+        "description": "여러 속성을 고려한 데이터 기반 포지셔닝 분석으로 최적의 시장을 선택합니다."
+      }
+    ]
+  },
+  "insights": {
+    "title": "인사이트",
+    "subtitle": "최신 한국-인도 비즈니스 트렌드 및 업데이트",
+    "description": "전문가 분석 및 시장 인사이트로 정보를 얻으세요",
+    "viewAll": "모든 인사이트 보기",
+    "readMore": "더 읽기"
+  },
+  "footer": {
+    "description": "전문 컨설팅과 문화 교류를 통해 한국의 혁신과 인도의 기회를 연결합니다.",
+    "stayUpdated": "최신 정보 받기",
+    "getLatestInsights": "최신 한국-인도 비즈니스 인사이트를 받아보세요",
+    "enterEmail": "이메일을 입력하세요",
+    "quickLinks": "빠른 링크",
+    "services": "서비스",
+    "contactUs": "문의하기",
+    "koreaOffice": "한국 사무소",
+    "indiaOffice": "인도 사무소",
+    "rights": "© 2025 StaraJIN, Inc. 모든 권리 보유.",
+    "privacyPolicy": "개인정보처리방침",
+    "termsOfService": "서비스 약관",
+    "cookiePolicy": "쿠키 정책"
+  },
+  "contact": {
+    "quickConsultation": "빠른 상담",
+    "getExpertAdvice": "전문가 조언을",
+    "in24Hours": "24시간 내에 받으세요",
+    "yourName": "성함",
+    "company": "회사명",
+    "emailAddress": "이메일 주소",
+    "selectServiceInterest": "관심 서비스 선택",
+    "tellUsAboutGoals": "확장 목표에 대해 알려주세요...",
+    "requestConsultation": "상담 요청",
+    "informationSecure": "귀하의 정보는 안전하고 기밀이 보장됩니다",
+    "phoneNumber": "전화번호",
+    "businessConsulting": "비즈니스 컨설팅",
+    "marketEntry": "시장 진입 지원",
+    "partnershipDevelopment": "파트너십 개발",
+    "culturalExchange": "문화 교류 프로그램",
+    "strategicPlanning": "전략 기획",
+    "other": "기타"
+  },
+  "common": {
+    "submit": "제출",
+    "cancel": "취소",
+    "save": "저장",
+    "edit": "편집",
+    "delete": "삭제",
+    "back": "뒤로",
+    "next": "다음",
+    "previous": "이전",
+    "loading": "로딩 중...",
+    "error": "오류",
+    "success": "성공",
+    "warning": "경고",
+    "info": "정보",
+    "learnMore": "자세히 알아보기",
+    "getStarted": "시작하기",
+    "viewMore": "더 보기"
+  }
+}

@@ -1,0 +1,54 @@
+// Partners Logo Marquee - Working Animation
+.partners-marquee {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  background: transparent;
+  border: none;
+  width: 100%;
+  
+  .marquee-content {
+    display: inline-flex;
+    animation: scrollLeftAnimation 30s linear infinite;
+    gap: 3rem;
+    align-items: center;
+    will-change: transform;
+    white-space: nowrap;
+    animation-play-state: running;
+  }
+  
+  .marquee-item {
+    flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 60px;
+    padding: 0.5rem;
+    
+    img {
+      max-height: 45px;
+      max-width: 130px;
+      width: auto;
+      height: auto;
+      object-fit: contain;
+      filter: grayscale(60%) opacity(0.8);
+      transition: all 0.3s ease;
+      display: block;
+      
+      &:hover {
+        filter: grayscale(0%) opacity(1);
+        transform: scale(1.05);
+      }
+    }
+  }
+}
+
+@keyframes scrollLeftAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
