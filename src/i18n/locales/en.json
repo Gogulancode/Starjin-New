@@ -255,7 +255,7 @@
     "title": "Ready to Expand Your Business to Korea?",
     "description": "Let our expert team guide you through the Korean market entry process. Get personalized strategies and proven solutions for your business success.",
     "buttonText": "Schedule Free Consultation",
-    "contactInfo": {
+    "supportInfo": {
       "phone": {
         "title": "24/7 Support",
         "number": "+82-2-123-4567"
@@ -268,7 +268,20 @@
         "title": "Visit Us",
         "address": "Seoul, South Korea"
       }
-    }
+    },
+    "koreaOffice": {
+      "address": "Seoul, South Korea",
+      "phone": "+82-2-1234-5678",
+      "email": "info@starajin.com",
+      "hours": "Mon-Fri, 09AM - 06PM KST"
+    },
+    "indiaOffice": {
+      "address": "Mumbai, India", 
+      "phone": "+91-22-1234-5678",
+      "email": "india@starajin.com",
+      "hours": "Mon-Fri, 09AM - 06PM IST"
+    },
+    "contactInfo": "Contact Info"
   },
   "achievements": {
     "title": "Key Achievements",
@@ -468,6 +481,7 @@
     "info": "Information",
     "learnMore": "Learn More",
     "getStarted": "Get Started",
-    "viewMore": "View More"
+    "viewMore": "View More",
+    "getQuote": "Get A Quote"
   }
 }

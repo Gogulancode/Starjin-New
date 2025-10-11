@@ -2,9 +2,11 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import menu_data from "../../../data/MenuData";
 
 const MobileMenu = () => {
+   const { t } = useTranslation();
    const [navTitle, setNavTitle] = useState("");
    const [, setSubNavTitle] = useState("");
 
@@ -14,13 +16,31 @@ const MobileMenu = () => {
       setSubNavTitle("");
    };
 
+   // Function to get translated menu title
+   const getMenuTitle = (title: string) => {
+      switch (title.toLowerCase()) {
+         case 'home':
+            return t('nav.home');
+         case 'about us':
+            return t('nav.about');
+         case 'services':
+            return t('nav.services');
+         case 'projects':
+            return t('nav.projects');
+         case 'contact':
+            return t('nav.contact');
+         default:
+            return title;
+      }
+   };
+
    return (
       <ul>
          {menu_data.map((menu) => (
             menu.mega_menus ? (
                <li key={menu.id} className={`has-dropdown active menu-thumb ${navTitle === menu.title ? "dropdown-opened" : ""}`}>
                   <Link to={menu.link}>
-                     {menu.title}
+                     {getMenuTitle(menu.title)}
                   </Link>
                   <ul className="submenu has-homemenu" style={{ display: navTitle === menu.title ? "block" : "none" }}>
                      <li>
@@ -61,7 +81,7 @@ const MobileMenu = () => {
 
                <li key={menu.id}>
                   <Link to={menu.link}>
-                     {menu.title}
+                     {getMenuTitle(menu.title)}
                   </Link>
 
                   {menu.has_dropdown && (

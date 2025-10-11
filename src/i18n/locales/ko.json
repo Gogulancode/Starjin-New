@@ -258,7 +258,7 @@
     "title": "한국으로 사업을 확장할 준비가 되셨나요?",
     "description": "저희 전문 팀이 한국 시장 진입 과정을 안내해드립니다. 맞춤형 전략과 검증된 솔루션으로 비즈니스 성공을 이끌어내세요.",
     "buttonText": "무료 컨설팅 예약",
-    "contactInfo": {
+    "supportInfo": {
       "phone": {
         "title": "24시간 지원",
         "number": "+82-2-123-4567"
@@ -271,7 +271,20 @@
         "title": "방문 상담",
         "address": "서울, 대한민국"
       }
-    }
+    },
+    "koreaOffice": {
+      "address": "서울, 대한민국",
+      "phone": "+82-2-1234-5678",
+      "email": "info@starajin.com",
+      "hours": "월-금, 오전 9시 - 오후 6시 (한국시간)"
+    },
+    "indiaOffice": {
+      "address": "뭄바이, 인도",
+      "phone": "+91-22-1234-5678", 
+      "email": "india@starajin.com",
+      "hours": "월-금, 오전 9시 - 오후 6시 (인도시간)"
+    },
+    "contactInfo": "연락처 정보"
   },
   "achievements": {
     "title": "주요 성과",
@@ -471,6 +484,7 @@
     "info": "정보",
     "learnMore": "자세히 알아보기",
     "getStarted": "시작하기",
-    "viewMore": "더 보기"
+    "viewMore": "더 보기",
+    "getQuote": "견적 받기"
   }
 }

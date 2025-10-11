@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import MobileMenu from "./MobileMenu";
+import { useTranslation } from "react-i18next";
 
 interface MobileSidebarProps {
    offCanvas: boolean;
@@ -7,6 +8,12 @@ interface MobileSidebarProps {
 }
 
 const Offcanvas = ({ offCanvas, setOffCanvas }: MobileSidebarProps) => {
+   const { t, i18n } = useTranslation();
+
+   const toggleLanguage = () => {
+      const newLang = i18n.language === 'en' ? 'ko' : 'en';
+      i18n.changeLanguage(newLang);
+   };
 
    return (
       <>
@@ -18,9 +25,22 @@ const Offcanvas = ({ offCanvas, setOffCanvas }: MobileSidebarProps) => {
                      <div className="offcanvas__top mb-4 d-flex justify-content-between align-items-center">
                         <div className="offcanvas__logo">
                            <Link to="/">
-                              <img src="assets/img/logo/logo.png" alt="logo-img" />
+                              <img src="assets/img/logo/Starajin - Header.png" alt="StaraJIN Logo" />
                            </Link>
                         </div>
+                        
+                        {/* Language Toggle */}
+                        <div className="language-toggle me-3">
+                           <button 
+                              onClick={toggleLanguage}
+                              className="btn btn-sm btn-outline-primary d-flex align-items-center gap-1"
+                              title={i18n.language === 'en' ? 'Switch to Korean' : 'Switch to English'}
+                           >
+                              <i className="fas fa-globe"></i>
+                              <span>{i18n.language === 'en' ? 'KO' : 'EN'}</span>
+                           </button>
+                        </div>
+                        
                         <div className="offcanvas__close">
                            <button onClick={() => setOffCanvas(false)}>
                               <i className="fas fa-times"></i>
@@ -37,14 +57,14 @@ const Offcanvas = ({ offCanvas, setOffCanvas }: MobileSidebarProps) => {
                         </div>
                      </div>
                      <div className="offcanvas__contact">
-                        <h4 className="n900-clr">Contact Info</h4>
+                        <h4 className="n900-clr">{t('contact.contactInfo', 'Contact Info')}</h4>
                         <ul className="d-grid gap-2 mb-5">
                            <li className="d-flex align-items-center">
                               <div className="offcanvas__contact-icon">
                                  <i className="fal fa-map-marker-alt"></i>
                               </div>
                               <div className="offcanvas__contact-text">
-                                 <Link target="_blank" to="/">3517 W. Gray St. Utica, Pennsylvania</Link>
+                                 <Link target="_blank" to="/">Seoul, South Korea</Link>
                               </div>
                            </li>
                            <li className="d-flex align-items-center">
@@ -52,8 +72,9 @@ const Offcanvas = ({ offCanvas, setOffCanvas }: MobileSidebarProps) => {
                                  <i className="fal fa-envelope"></i>
                               </div>
                               <div className="offcanvas__contact-text">
-                                 <Link to="mailto:info@example.com"><span
-                                    className="mailto:info@example.com">alma.lawson@example.com</span></Link>
+                                 <Link to="mailto:info@starajin.com">
+                                    <span>info@starajin.com</span>
+                                 </Link>
                               </div>
                            </li>
                            <li className="d-flex align-items-center">
@@ -61,7 +82,7 @@ const Offcanvas = ({ offCanvas, setOffCanvas }: MobileSidebarProps) => {
                                  <i className="fal fa-clock"></i>
                               </div>
                               <div className="offcanvas__contact-text">
-                                 <Link target="_blank" to="/">Sun-friday, 02am -09pm</Link>
+                                 <Link target="_blank" to="/">Mon-Fri, 09AM - 06PM KST</Link>
                               </div>
                            </li>
                            <li className="d-flex align-items-center">
@@ -69,14 +90,14 @@ const Offcanvas = ({ offCanvas, setOffCanvas }: MobileSidebarProps) => {
                                  <i className="far fa-phone"></i>
                               </div>
                               <div className="offcanvas__contact-text">
-                                 <Link to="tel:+11002345909">(219) 555-0114</Link>
+                                 <Link to="tel:+82-2-1234-5678">+82-2-1234-5678</Link>
                               </div>
                            </li>
                         </ul>
                         <div className="header-button mt-4">
                            <Link to="/contact" className="theme-btn p2-bg d-center gap-2 text-center">
                               <span>
-                                 Get A Quote
+                                 {t('common.getQuote', 'Get A Quote')}
                                  <span className="ani-arrow">
                                     <i className="fa-solid fa-arrow-right-long"></i>
                                  </span>

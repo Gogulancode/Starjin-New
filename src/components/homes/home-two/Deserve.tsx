@@ -26,7 +26,7 @@ const Deserve = () => {
                         <div className="footer-logo mb-4 mx-lg-0 mx-auto">
                            <img src="/assets/img/logo/logo-theme2.png" alt="img" />
                         </div>
-                        <p className="lh-110 fz-14 text-white">&copy; 2025 Rudra, Inc.</p>
+                        <p className="lh-110 fz-14 text-white">&copy; 2025 StaraJIN, Inc.</p>
                      </div>
                   </div>
                   <div className="col-lg-8">

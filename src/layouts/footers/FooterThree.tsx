@@ -24,7 +24,7 @@ const FooterThree = () => {
                            <div className="footer-logo mb-4 mx-sm-0 mx-auto">
                               <img src="/assets/img/logo/logo-theme.png" alt="img" />
                            </div>
-                           <p className="lh-110 fz-14 black-clr">&copy; 2025 Rudra, Inc.</p>
+                           <p className="lh-110 fz-14 black-clr">&copy; 2025 StaraJIN, Inc.</p>
                         </div>
                      </div>
                      <div className="col-lg-4 col-md-4 col-sm-6">
