@@ -58,8 +58,8 @@ const Service = () => {
    const { t } = useTranslation();
    
    return (
-      <section className="service-section section-bg pt-100 pb-100">
-         <div className="pt-100 d-xxl-block d-none"></div>
+      <section className="service-section section-bg pb-100" style={{ paddingTop: '80px' }}>
+         <div className="d-xxl-block d-none" style={{ paddingTop: '80px' }}></div>
          <div className="container">
             <div className="row g-sm-4 g-3 align-items-end mb-40">
                <div className="col-lg-6 col-md-7">
@@ -89,8 +89,7 @@ const Service = () => {
                      overflowY: 'hidden',
                      whiteSpace: 'nowrap',
                      paddingBottom: '10px',
-                     scrollbarWidth: 'thin',
-                     scrollbarColor: '#ffc700 #f1f1f1'
+                     scrollbarWidth: 'thin'
                   }}>
                      <div className="d-flex gap-4" style={{
                         width: 'max-content',

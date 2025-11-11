@@ -1,19 +1,19 @@
+// Default fallback values - these will be overridden by theme files
 :root {
-	--body: #f8f8f8;
-	--black: #2d2d2d;
-	--white: #fff;
-	--color-primary: #023EDA;
-	--color-secondary: #ffc700;
-	--theme: #023EDA;
-	--theme2: #ffc700;
-	--theme3: #023EDA;
-	--theme4: #2d2d2d;
-	--header: #161616;
-	--text: #2d2d2d;
-	--border: rgba(2, 62, 218, 0.11);
-	--bg: #f8f8f8;
-	--bg-2: #000;
-	--box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.06);
+	--body: var(--color-bg, #f8f8f8);
+	--black: var(--color-black, #2d2d2d);
+	--white: var(--color-white, #fff);
+	--theme: var(--color-theme, #023EDA);
+	--theme2: var(--color-theme2, #ffc700);
+	--theme2-rgb: 255, 199, 0; /* RGB values for theme2 */
+	--theme3: var(--color-theme3, #023EDA);
+	--theme4: var(--color-theme4, #2d2d2d);
+	--header: var(--color-header, #161616);
+	--text: var(--color-text, #2d2d2d);
+	--border: var(--color-border, rgba(2, 62, 218, 0.11));
+	--bg: var(--color-bg, #f8f8f8);
+	--bg-2: var(--color-bg-2, #000);
+	--box-shadow: var(--box-shadow, 0px 4px 25px 0px rgba(0, 0, 0, 0.06));
 }
 
 // Theme Color - Defualt Colors
@@ -35,7 +35,7 @@ $shadow: var(--box-shadow);
 .hover-svg {
 	transition: all 0.5s;
 	&:hover {
-		background: $theme-color4 !important;
+		background: var(--theme4) !important;
 		svg {
 			path {
 				stroke: #fff;
@@ -48,17 +48,14 @@ $shadow: var(--box-shadow);
 	}
 }
 .hover-theme1 {
-	transition: all 0.4s;
+	transition: all 0.5s;
 	&:hover {
-		background: $theme-color4 !important;
+		background: var(--theme4) !important;
 		svg {
 			path {
-				stroke: $theme-color;
-				fill: $theme-color;
+				stroke: var(--theme);
+				fill: var(--theme);
 			}
-		}
-		i {
-			color: $theme-color;
 		}
 	}
 }
@@ -179,34 +176,34 @@ $shadow: var(--box-shadow);
 	color: $theme-color;
 }
 .theme-bg {
-	background-color: $theme-color;
+	background-color: var(--theme);
 }
 .absolute-theme-bg {
-	background-color: $theme-color !important;
+	background-color: var(--theme) !important;
 }
 .theme-clr2 {
-	color: $theme-color2;
+	color: var(--theme2);
 }
 .theme-bg2 {
-	background-color: $theme-color2;
+	background-color: var(--theme2);
 }
 .theme-clr3 {
-	color: $theme-color3;
+	color: var(--theme3);
 }
 .theme-bg3 {
-	background-color: $theme-color3;
+	background-color: var(--theme3);
 }
 .theme-clr4 {
-	color: $theme-color4;
+	color: var(--theme4);
 }
 .theme-bg4 {
-	background-color: $theme-color4;
+	background-color: var(--theme4);
 }
 .border-clr {
-	border: 1px solid $border-color;
+	border: 1px solid var(--border);
 }
 .text-clr {
-	color: $text-color;
+	color: var(--text);
 }
 
 //font Size
