@@ -61,7 +61,7 @@ const Banner = () => {
                                     <h1
                                        className="fw-bold mb-0 text-white"
                                        style={{
-                                          fontSize: 'clamp(1.5rem, 3vw, 2.5rem)',
+                                          fontSize: 'clamp(1rem, 1.8vw, 1.7rem)',
                                           lineHeight: 1.3,
                                        }}
                                     >

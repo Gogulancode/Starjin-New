@@ -11,7 +11,8 @@ interface AchievementItem {
 const KeyAchievements = () => {
   const { t } = useTranslation();
   
-  const achievementsData = t('achievements.stats', { returnObjects: true }) as AchievementItem[];
+  const rawStats = t('achievements.stats', { returnObjects: true });
+  const achievementsData: AchievementItem[] = Array.isArray(rawStats) ? rawStats : [];
 
   // Icon configurations matching the theme
   const iconConfig = [
@@ -190,16 +191,16 @@ const KeyAchievements = () => {
             >
               <div className="row align-items-center">
                 <div className="col-md-4 mb-3 mb-md-0">
-                  <h3 className="fw-bold mb-1" style={{ color: '#ffffff' }}>50+</h3>
-                  <p className="mb-0 fz-14" style={{ color: 'rgba(255,255,255,0.9)' }}>Strategic MoUs Signed</p>
+                  <h3 className="fw-bold mb-1" style={{ color: '#ffffff' }}>{t('achievements.bottomStats.mous.number')}</h3>
+                  <p className="mb-0 fz-14" style={{ color: 'rgba(255,255,255,0.9)' }}>{t('achievements.bottomStats.mous.label')}</p>
                 </div>
                 <div className="col-md-4 mb-3 mb-md-0">
-                  <h3 className="fw-bold mb-1" style={{ color: '#ffffff' }}>25+</h3>
-                  <p className="mb-0 fz-14" style={{ color: 'rgba(255,255,255,0.9)' }}>Consulting Projects</p>
+                  <h3 className="fw-bold mb-1" style={{ color: '#ffffff' }}>{t('achievements.bottomStats.consulting.number')}</h3>
+                  <p className="mb-0 fz-14" style={{ color: 'rgba(255,255,255,0.9)' }}>{t('achievements.bottomStats.consulting.label')}</p>
                 </div>
                 <div className="col-md-4">
-                  <h3 className="fw-bold mb-1" style={{ color: '#ffffff' }}>100+</h3>
-                  <p className="mb-0 fz-14" style={{ color: 'rgba(255,255,255,0.9)' }}>Partner Matches</p>
+                  <h3 className="fw-bold mb-1" style={{ color: '#ffffff' }}>{t('achievements.bottomStats.partners.number')}</h3>
+                  <p className="mb-0 fz-14" style={{ color: 'rgba(255,255,255,0.9)' }}>{t('achievements.bottomStats.partners.label')}</p>
                 </div>
               </div>
             </div>

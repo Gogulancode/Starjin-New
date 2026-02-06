@@ -82,7 +82,7 @@ const Service = () => {
                </div>
             </div>
             <div className="row g-4">
-               {service_data.map((item) => (
+               {service_data.slice(0, 3).map((item) => (
                   <div key={item.id} className="col-lg-4 col-md-6">
                      <div
                         className="team-items service-items1 hover-translate8 px-xxl-6 px-xxl-4 px-sm-3 px-3 section-bg rounded-4 h-100">

@@ -6,6 +6,7 @@ import Choose from "./Choose"
 import Financial from "./Financial"
 import Solution from "./Solution"
 import Team from "./Team"
+import AdvisoryBoard from "./AdvisoryBoard"
 
 const About = () => {
   return (
@@ -16,6 +17,7 @@ const About = () => {
       <Choose />
       <Solution />
       <Team />
+      <AdvisoryBoard />
       <Contact />
       <FooterOne />
     </>

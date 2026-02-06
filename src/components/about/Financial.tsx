@@ -25,7 +25,7 @@ const Financial = () => {
                      <Link to="/services" className="theme-btn style1 pe-20">
                         <i
                            className="fa-solid fa-arrow-right w-36 h-36 bg-white rounded-circle d-center fz-14 theme-clr4"></i>
-                        Free Consultation
+                        {t('about.financial.ctaButton')}
                      </Link>
                   </div>
                </div>
@@ -36,13 +36,13 @@ const Financial = () => {
                      <div className="team-items service-items1 financial-items px-xxl-6 px-xxl-4 px-sm-3 px-3 section-bg rounded-4">
                         <div className="content d-xl-flex d-grid align-items-start gap-xl-3 gap-2 justify-content-between">
                            <div>
-                              <span className="d-block theme-clr fw-600 mb-2">{item.sub_title}</span>
+                              <span className="d-block theme-clr fw-600 mb-2">{t(item.sub_titleKey)}</span>
                               <h5 className="mb-sm-3 mb-2 wow fadeInUp" data-wow-delay=".3s">
                                  <Link to="/services-details" className="theme-clr4 lh-110 fw-600">
-                                    {item.title}
+                                    {t(item.titleKey)}
                                  </Link>
                               </h5>
-                              <span className="fz-14 d-block theme-clr4 fw-500 mb-1">{item.desc}</span>
+                              <span className="fz-14 d-block theme-clr4 fw-500 mb-1">{t(item.descKey)}</span>
                            </div>
                            <Link to="/services-details"
                               className="theme-clr4 icon theme-bg  w-54 h-54 white-bg rounded-circle d-center d-xl-block d-none fs-five">
@@ -61,13 +61,13 @@ const Financial = () => {
                            <div
                               className="content d-xl-flex d-grid align-items-start gap-xl-3 gap-2 justify-content-between">
                               <div>
-                                 <span className="d-block theme-clr fw-600 mb-2">{item.sub_title}</span>
+                                 <span className="d-block theme-clr fw-600 mb-2">{t(item.sub_titleKey)}</span>
                                  <h5 className="mb-sm-3 mb-2 wow fadeInUp" data-wow-delay=".3s">
                                     <Link to="/services-details" className="theme-clr4 lh-110 fw-600">
-                                       {item.title}
+                                       {t(item.titleKey)}
                                     </Link>
                                  </h5>
-                                 <span className="fz-14 d-block theme-clr4 fw-500 mb-1">{item.desc}</span>
+                                 <span className="fz-14 d-block theme-clr4 fw-500 mb-1">{t(item.descKey)}</span>
                               </div>
                               <Link to="/services-details"
                                  className="theme-clr4 icon theme-bg  w-54 h-54 white-bg rounded-circle d-center d-xl-block d-none fs-five">

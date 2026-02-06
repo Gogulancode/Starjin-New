@@ -25,49 +25,113 @@
   },
   "about": {
     "financial": {
-      "title": "Empowering Your Business Journey",
+      "title": "Trusted Partner for Korea–India Business Success",
       "subtitle": "with Clarity and Confidence",
-      "description": "We're a team of expert consultants committed to helping businesses make strategic decisions for successful expansion between Korea and India with tailored strategies and trusted guidance"
+      "description": "We're a team of expert consultants committed to helping businesses make strategic decisions for successful expansion between Korea and India with tailored strategies and trusted guidance",
+      "ctaButton": "Free Consultation",
+      "mission": {
+        "label": "Our Mission",
+        "title": "Driven by Purpose, Guided by Results",
+        "desc": "Our mission is to help Korean companies enter, settle, and grow in India with confidence. We do this by: Structuring India business entry as a system, not a series of disconnected actions. Bridging strategy and execution through a single-window, end-to-end approach. Aligning headquarters strategy with Indian market realities, regulations, and culture. Reducing risk while enabling sustainable, long-term growth. STARAJIN exists to ensure that strong intent is matched with strong execution in India."
+      },
+      "vision": {
+        "label": "Our Vision",
+        "title": "To be the most trusted architect and facilitation partner for Korea–India business expansion and cooperation.",
+        "desc": "STARAJIN envisions a future where Korean companies succeed in India not by trial and error, but through well-designed structures, deep local understanding, and sustainable partnerships. We aim to set the benchmark for how cross-border businesses between Korea and India are planned, executed, and scaled—responsibly, efficiently, and with long-term impact."
+      },
+      "values": {
+        "label": "Our Core Values",
+        "title": "Trust | Structure | Cultural Intelligence | Strategy | Sustainability",
+        "desc": "The Principles That Guide Every Step We Take. At the heart of our consulting practice lies a clear set of values that shape every relationship, decision, and solution we deliver. These principles guide our commitment to excellence in Korea-India business facilitation. Integrity and transparency in all business dealings. Cultural sensitivity and respect for diversity. Excellence in service delivery and client satisfaction."
+      }
     },
     "choose": {
       "tag": "Why Choose Us",
-      "title": "Your Trusted Partner for",
-      "subtitle": "Korea-India Business Success",
-      "description": "With 15+ years of experience and a network of 1000+ connections, we deliver proven results through 50+ successful cases and provide comprehensive support for your Korea-India business expansion journey.",
+      "title": "Integrated Strategy. Coordinated Execution.",
+      "subtitle": "One Seamless System",
+      "description": "Many companies entering India face the same challenge: a well-defined strategy that becomes difficult to implement in a complex and unfamiliar environment. At STARAJIN, strategy is never separated from execution. From the beginning, we design market entry and expansion plans with implementation in mind — ensuring that decisions made at headquarters translate effectively into on-the-ground operations in India.",
       "achievements": {
-        "experience": "15+ years in India",
-        "experienceDesc": "15 years of experience in India with experts & Knowhows",
+        "experience": "18+ years in India",
+        "experienceLabel": "years in India",
+        "experienceDesc": "18 years of experience in India with experts & Knowhows",
         "network": "1000+ Network",
+        "networkLabel": "Network",
         "networkDesc": "Built an intimate network across Korean-Indian government, companies, and institutions",
         "cases": "50+ Success Case",
+        "casesLabel": "Success Cases",
         "casesDesc": "Many success stories with data-driven, customized strategies",
         "support": "100% Total Support",
+        "supportLabel": "Total Support",
         "supportDesc": "Comprehensive support from market entry to growth"
       }
     },
     "solution": {
       "title": "Our Journey",
-      "subtitle": "Building Excellence Over 4+ Years",
+      "subtitle": "From India Immersion to Bilateral Impact",
       "timeline": {
+        "2017": {
+          "title": "Foundation & India Immersion",
+          "desc": "Deep engagement with the Indian market begins through consulting, advisory, and on-ground execution roles. Extensive exposure to Indian regulatory systems, industry structures, and business culture lays the groundwork for Starajin's India-first expertise."
+        },
+        "2019": {
+          "title": "Conceptualization of Starajin",
+          "desc": "Recognition of a recurring gap between Korea–India strategy and execution leads to the formal conceptualization of Starajin as a structured, bilateral market-entry and facilitation platform."
+        },
         "2020": {
-          "title": "Founded STARAJIN",
-          "desc": "Advisor for Wellness Tourism Cluster Project. India business development for Specialty Chemical company in Korea. KOFICE Local Culture international Exchange project operation for art group Damso in Haenam."
+          "title": "Starajin Founded in Korea",
+          "desc": "Starajin officially begins as a business consulting and services company in Seongnam-si, Gyeonggi-do, Korea, focusing on Korea–India business strategy, market entry support, due diligence, G2B facilitation, investment advisory, and business development services."
         },
         "2021": {
-          "title": "Strategic Partnerships",
-          "desc": "MOU with G2B consulting firm THEISTIC. Advisory for Gwangju FEZ regarding Automotive & IT Manpower exchange. India Marketing & Promotion for R&F Chemical <Magic Copper Mask>."
-        },
-        "2022": {
-          "title": "Business Expansion",
-          "desc": "Technology Commercialization & Biz Development for Waste to Energy project. India business official partner for K-Culture Center in Gwangju city. Official marketing partner of Maison India Travels and Books. MOU with India government PR agency MMJP Media."
+          "title": "Early Korea–India Engagements",
+          "desc": "During its early operations, Starajin deepens engagement with Korean companies exploring India through advisory, strategy, localization, and relationship building — emphasizing cultural, regulatory, and strategic alignment."
         },
         "2023": {
-          "title": "Project Leadership",
-          "desc": "Korea Partner for Waste management pilot project of 9 state of India. India-Korea Artist Camp Advisor for Namjisland Culture and education group. Selected for Media Startup Supporting Project by Korea Press Foundation."
+          "title": "Starajin India Established",
+          "desc": "Starajin India Private Limited is incorporated in Mulashi, Maharashtra (India) on 12 July 2023, establishing a local corporate presence to better support market entry and operations for clients."
         },
         "2024": {
-          "title": "Innovation & Growth",
-          "desc": "Korea-India Business matching platform 'Konnectin' Launching. MOU with India Specialty Chemical Manufacturer Association. MOU with India Startup Association 'WeSpark'. MOU with Law & Regulation consulting company Milano Consultants. MOU with VERYWORDS, Korea's Climate Platform with EV."
+          "title": "Partnership & Upskilling Initiatives",
+          "desc": "Starajin initiates strategic collaboration efforts with KOSME (Korea SMEs and Startups Agency) and Pimpri Chinchwad Education Trust / Pimpri Chinchwad University (PCET/PCU), co-designing workforce upskilling and talent development programs tailored for Korean companies in Pune."
+        },
+        "2025a": {
+          "title": "Korea Business Center & KFC Launch",
+          "desc": "Starajin plays a key role in establishing the Korea Business Center (KBC) at PCET Pune under KOSME GBC New Delhi authorization. CEO Yujin Han leads the coordination and launch of the Korea Facilitation Centre (KFC) at Pimpri Chinchwad University, alongside a milestone MoU between KOSME GBC New Delhi and PCU."
+        },
+        "2025b": {
+          "title": "DIDAC India & K-SS Day 2025",
+          "desc": "Starajin participates in DIDAC India 2025 at the Korea Pavilion, showcasing its Industry–Academia collaboration model. Starajin supports the Proclamation Ceremony for 'Korea SMEs & Startups Day in India,' hosted by KOSME, where CEO Yujin Han contributes as Master of Ceremonies."
+        }
+      }
+    },
+    "advisory": {
+      "tag": "Advisory Board",
+      "title": "Our Advisory Board Members",
+      "capabilitiesTitle": "Our Advisory Board, Allied Association, and Facilitation Capability",
+      "capabilities": {
+        "item1": "Expertise and influential advisory board members in India & Korea",
+        "item2": "G2G, G2B association & facilitation",
+        "item3": "Network with institution, industry association, related organizations"
+      },
+      "members": {
+        "anil": {
+          "name": "Mr. Anil Sinha",
+          "designation": "COO & Vice President",
+          "organization": "Tata Daewoo"
+        },
+        "girish": {
+          "name": "Dr. Girish Desai",
+          "designation": "Executive Director",
+          "organization": "Pimpri Chinchwad Education Trust (PCET)"
+        },
+        "sachin": {
+          "name": "Mr. Sachin Itkar",
+          "designation": "Vice-president",
+          "organization": "Maharashtra Economic Development Council (MEDC)"
+        },
+        "nadish": {
+          "name": "Mr. Nadish Vyas",
+          "designation": "Senior (Audit & Assurance)",
+          "organization": "KPMG (PNG_India network)"
         }
       }
     },
@@ -79,18 +143,23 @@
       "members": {
         "yujin": {
           "name": "Yujin Han",
-          "designation": "Founder & CEO",
+          "designation": "CEO",
           "description": "Expert in Korea-India business relations with 10+ years experience in international consulting."
         },
-        "rajesh": {
-          "name": "Dr. Rajesh Kumar",
-          "designation": "Director - India Operations",
-          "description": "Former government official with deep expertise in Indian market regulations and compliance."
+        "vijay": {
+          "name": "Vijay Vyas",
+          "designation": "COO",
+          "description": "Strategic operations leader driving business excellence and cross-border collaboration."
         },
-        "minjun": {
-          "name": "Kim Min-jun",
-          "designation": "Cultural Exchange Director",
-          "description": "Specialist in cross-cultural communication and educational program development."
+        "young": {
+          "name": "Young Choi",
+          "designation": "CTO",
+          "description": "Technology visionary leading digital transformation and innovation initiatives."
+        },
+        "james": {
+          "name": "James Park",
+          "designation": "CMO",
+          "description": "Marketing strategist with expertise in brand development and market expansion."
         }
       }
     }
@@ -166,9 +235,9 @@
   },
   "banner": {
     "slide1": {
-      "title": "Connecting Korea & India",
-      "subtitle": "for Business Success",
-      "description": "Your trusted partner for trade promotion, business matchmaking, and strategic partnerships between Korea and India.",
+      "title": "Supporting Your India Journey",
+      "subtitle": "-Stage by Stage ",
+      "description": "Your Trusted Partner for Korea–India business strategy and facilitation firm trusted by Korean companies, institutions, and government partners.",
       "cta": "Get Started",
       "features": [
         "Comprehensive Market Analysis",
@@ -203,24 +272,24 @@
     }
   },
   "choose": {
-    "title": "Why Choose Us",
-    "subtitle": "Your Trusted Partner for Korea-India Business Success",
+    "title": "What Sets STARAJIN Apart",
+    "subtitle": "Integrated Strategy. Coordinated Execution. One Seamless System",
     "items": [
       {
-        "title": "Expert Market Knowledge",
-        "description": "Deep understanding of both Korean and Indian markets with proven strategies for successful business expansion."
+        "title": "18+ Years of Hands-On India Market Experience",
+        "description": "We don’t rely on second-hand knowledge.Our insights come from years of living, working, and solving real business challenges in India."
       },
       {
-        "title": "Cultural Bridge",
-        "description": "Seamless cultural integration support to ensure smooth business relationships and communications."
+        "title": "Deep Korea–India cultural, regulatory, and industry insight",
+        "description": "Success in India depends on understanding not just rules, but relationships, expectations, and decision-making styles across borders. We help companies avoid misalignment before it becomes a risk."
       },
       {
-        "title": "Proven Track Record",
-        "description": "15+ years of successful Korea-India business facilitation with 50+ satisfied clients."
+        "title": "Single-window strategy + execution model",
+        "description": "Instead of managing multiple advisors and service providers, you work with one control tower that integrates legal, financial, operational, and market expertise through our trusted alliance network."
       },
       {
-        "title": "End-to-End Solutions",
-        "description": "Comprehensive services from market research to business establishment and ongoing support."
+        "title": "Proven results across manufacturing, energy, IT, startups, and public sector projects",
+        "description": "From manufacturing and energy to IT, startups, and public-sector collaboration, STARAJIN has supported organizations at different stages of India expansion — from first entry to long-term stabilization."
       }
     ]
   },
@@ -320,27 +389,163 @@
           "Opinion Lead(Seminar / Speaker / Column report / Market report) : 100+"
         ]
       }
-    ]
+    ],
+    "bottomStats": {
+      "mous": { "number": "50+", "label": "Strategic MoUs Signed" },
+      "consulting": { "number": "25+", "label": "Consulting Projects" },
+      "partners": { "number": "100+", "label": "Partner Matches" }
+    }
   },
   "services": {
     "title": "Our Services",
-    "subtitle": "Comprehensive Korea-India Business Solutions",
+    "subtitle": "Integrated Services for Every Stage of Your India Expansion",
     "businessDev": "Business Development",
     "consulting": "Business Strategy & Consulting", 
     "partnerMatching": "B2B Partner Matching",
     "cultural": "Art & Cultural Exchange",
+    "hero": {
+      "tagline1": "We provide",
+      "taglineHighlight": "One-stop Solution for INDIA Business",
+      "tagline2": "and run with you.",
+      "description": "From market entry strategy to on-ground execution, we offer comprehensive end-to-end services for Korean companies expanding into India.",
+      "cta": "Get Started"
+    },
+    "overview": {
+      "tag": "What We Offer",
+      "title": "Comprehensive Business Solutions",
+      "description": "Our integrated approach covers every aspect of your India business journey - from initial strategy to full-scale operations.",
+      "businessEntry": {
+        "title": "Business Entry",
+        "items": [
+          "Company Incorporation",
+          "Accounting / Taxation Advisory",
+          "Market Research"
+        ]
+      },
+      "investment": {
+        "title": "Investment",
+        "items": [
+          "Alternative Investment Portfolio Advisory (Startups, Bond, etc.)",
+          "Indian Startups Reports"
+        ]
+      },
+      "b2bPartner": {
+        "title": "B2B Partner",
+        "items": [
+          "M&A (Merge and Acquisitions)",
+          "Technology Transferring",
+          "Commodity & Industrial Goods Procurement"
+        ]
+      },
+      "strategy": {
+        "title": "Strategy Consultation",
+        "items": [
+          "Market Entry Strategy",
+          "Brand Building Strategy",
+          "Sales Strategy",
+          "Marketing Strategy"
+        ]
+      },
+      "businessData": {
+        "title": "Business Data",
+        "items": [
+          "KOnnectIN Platform",
+          "Buyer & Seller Search",
+          "India Industry & Market News"
+        ]
+      },
+      "cultural": {
+        "title": "Cultural Project & Talent Development",
+        "items": [
+          "Project Planning",
+          "Project Coordination"
+        ]
+      }
+    },
+    "detailed": {
+      "tag": "Our Services in Detail",
+      "title": "Deep Dive into Our Service Offerings",
+      "consulting": {
+        "title": "Consulting Service",
+        "subtitle": "India Market Entry Consulting",
+        "sole": {
+          "title": "Sole Investment",
+          "desc": "Complete support for independent market entry",
+          "items": [
+            "Entry Strategy & Roadmap Planning",
+            "Incorporation, Management Structuring",
+            "Site Searching, Land Acquisition, Regulation",
+            "Government Industrial Park (e.g. MIDC) Consultation"
+          ]
+        },
+        "jv": {
+          "title": "JV / Partnership",
+          "desc": "Strategic partnership development",
+          "items": [
+            "Strategic Local Partner Searching & Matching",
+            "Due Diligence of Partner (Finance & Business Viability)",
+            "JV Structure and Governance Designing"
+          ]
+        }
+      },
+      "research": {
+        "title": "Research & Advisory",
+        "subtitle": "Data-driven insights for strategic decisions",
+        "team": {
+          "title": "Research Team",
+          "desc": "Comprehensive market intelligence",
+          "items": [
+            "Industry Analysis & Market Research",
+            "Buyer & Supplier Identification",
+            "Business Feasibility Analysis",
+            "Risk Analysis"
+          ]
+        },
+        "advisory": {
+          "title": "Advisory",
+          "desc": "Strategic collaboration facilitation",
+          "items": [
+            "Industry Collaboration Model Designing",
+            "Industry–Academia Collaboration Model Designing and Facilitating",
+            "India–Korea G2G & G2B Collaboration Project Developing & Organizing"
+          ]
+        }
+      },
+      "execution": {
+        "title": "Execution & Academy",
+        "subtitle": "On-ground support and talent development",
+        "agent": {
+          "title": "Execution (Agent) Service",
+          "desc": "Local representation and support",
+          "items": [
+            "Local Buyer & Supplier Meeting (Representative of Client)",
+            "Buying & Supplying Agent: Site & Quality Checking, Sample Testing, Shipping Investigation",
+            "Expat Support Services: Interpreter, Car Rent, Driver Support, Relocation"
+          ]
+        },
+        "academy": {
+          "title": "Corporates Academy",
+          "desc": "Cross-cultural training programs",
+          "items": [
+            "Pre-training Session for Expat (In Korea)",
+            "Local Adaptation Training for Expat (In India): Understanding Culture Difference, Local Etiquette, Networking",
+            "Pre-Training Program for Personality Test (Local Employees or Job Seekers)"
+          ]
+        }
+      }
+    },
     "items": [
       {
-        "title": "Trade Promotion & Business Matchmaking",
-        "description": "Organizing B2B meetings and sector-specific trade fairs. Facilitating export promotion and sourcing partnerships. Hosting buyer-seller meets and roundtables with CEOs and decision-makers."
+        "title": "India Market Entry Consulting",
+        "description": "Structured Entry Strategy, Entity setup, JV structuring, and regulatory alignment for Korean companies entering & expanding into India."
       },
       {
-        "title": "Exhibition & Event Management (B2B)",
-        "description": "Organizing flagship events like India Trend Fair, India Fashion & Lifestyle Show, India Auto Parts Show, India Food Fair Korea. Collaborating with Korean and Indian trade bodies and embassies. Supporting exporters to participate in exhibitions."
+        "title": "Research & Strategic Advisory",
+        "description": "Market intelligence, feasibility analysis, partner identification, and India–Korea collaboration advisory for informed, strategic decision-making."
       },
       {
-        "title": "MICE & Stand Building, Pavilion Construction",
-        "description": "Designing and executing Meetings, Incentives, Conferences, and Exhibitions (MICE) for corporates. Organize Press Conferences, product launches. Exhibition Booth, Pavilion Construction & Decoration."
+        "title": "Execution & Corporate Academy",
+        "description": "On-ground execution coordination, sourcing and partner support, expatriate readiness, and cross-cultural capability programs."
       },
       {
         "title": "Export Promotion Support / Market Research",
@@ -354,7 +559,50 @@
         "title": "Technology Transfer & Joint Venture Collaboration",
         "description": "Identifying and facilitating Joint Venture / technology transfer opportunities between Indian and Korean firms. Supporting collaborations in technical textiles, smart manufacturing, and precision agriculture."
       }
-    ]
+    ],
+    "capabilities": {
+      "tag": "Our Capabilities",
+      "title": "How We Help Korean Companies Succeed in India",
+      "items": [
+        {
+          "title": "Market Entry Consulting",
+          "description": "Structured entry strategy, entity setup, JV structuring, and regulatory alignment for Korean companies entering India."
+        },
+        {
+          "title": "Research & Advisory",
+          "description": "Market intelligence, feasibility analysis, partner identification, and India–Korea collaboration advisory."
+        },
+        {
+          "title": "Execution Services",
+          "description": "On-ground execution coordination, sourcing support, and partner management services."
+        },
+        {
+          "title": "Corporate Academy",
+          "description": "Cross-cultural training, expatriate readiness programs, and capability development."
+        },
+        {
+          "title": "B2B Partner Matching",
+          "description": "Strategic local partner searching, due diligence, and partnership development."
+        },
+        {
+          "title": "Investment Advisory",
+          "description": "Alternative investment portfolio advisory including startups, bonds, and market opportunities."
+        }
+      ]
+    },
+    "clients": {
+      "tag": "Key Clients",
+      "title": "Trusted by Leading Organizations",
+      "description": "From global energy corporations to innovative startups, we serve clients across industries and scales."
+    },
+    "partners": {
+      "tag": "Strategic & Institutional Partners",
+      "title": "Building Bridges Between Korea and India",
+      "description": "Our trusted network of institutional partners ensures seamless support on both sides of the corridor.",
+      "koreaSide": "Korea-Side Partners",
+      "indiaSide": "India-Side Partners",
+      "viewAll": "View All Partners"
+    }
   },
   "solutions": {
     "title": "Core Business Solutions",
@@ -369,8 +617,8 @@
     ],
     "cards": {
       "mission": {
-        "title": "Driven by Purpose, Guided by Results",
-        "description": "We deliver comprehensive market entry strategies that align with your business objectives and Korean market dynamics."
+        "title": "To design and deliver successful Korea–India market entry and growth strategies through integrated, bilateral expertise.",
+        "description": "Our mission is to help Korean companies enter, settle, and grow in India with confidence. We do this by: Structuring India business entry as a system, not a series of disconnected actions. Bridging strategy and execution through a single-window, end-to-end approach. Aligning headquarters strategy with Indian market realities, regulations, and culture Reducing risk while enabling sustainable, long-term growth, STARAJIN exists to ensure that strong intent is matched with strong execution in India."
       },
       "trust": {
         "title": "Built on Trust. Backed by Experience",
@@ -482,6 +730,8 @@
     "learnMore": "Learn More",
     "getStarted": "Get Started",
     "viewMore": "View More",
-    "getQuote": "Get A Quote"
+    "getQuote": "Get A Quote",
+    "getConsultation": "Get Consultation",
+    "contactUs": "Contact Us"
   }
 }

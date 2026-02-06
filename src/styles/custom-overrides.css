@@ -1,4 +1,100 @@
 /* ===================================================
+   GLOBAL FONT SIZE SCALING
+   ================================================== */
+
+:root {
+  font-size: 85%; /* Reduces all font sizes by 15% globally */
+}
+
+/* ===================================================
+   SECTION TITLES & HEADINGS - Reduced sizes
+   ================================================== */
+
+/* Eyebrow text (small uppercase labels like "CLIENTS", "OUR SERVICES") */
+.section-header .d-flex,
+.section-header span,
+.theme-clr.fw-600,
+.d-flex.align-items-center.gap-2.theme-clr.fw-600 {
+  font-size: 12px !important;
+}
+
+/* Card/item titles (h3, h4) */
+.section-header h3,
+.service-items h3,
+.service-items2 h3,
+.service-items3 h3,
+.team-items h3,
+.blog-items h3,
+.blog-items2 h3 {
+  font-size: 18px !important;
+}
+
+.section-header h4,
+.service-items h4,
+.team-items h4 {
+  font-size: 15px !important;
+}
+
+/* Subtitles and descriptions */
+.section-header p,
+.section-header .description {
+  font-size: 14px !important;
+}
+
+@media (max-width: 991px) {
+  .section-header h2 {
+    font-size: 24px !important;
+  }
+  .section-header h3,
+  .service-items h3,
+  .service-items2 h3 {
+    font-size: 16px !important;
+  }
+}
+
+@media (max-width: 575px) {
+  .section-header h2 {
+    font-size: 20px !important;
+  }
+  .section-header h3,
+  .service-items h3 {
+    font-size: 15px !important;
+  }
+  .section-header .d-flex,
+  .section-header span,
+  .theme-clr.fw-600 {
+    font-size: 11px !important;
+  }
+}
+
+/* ===================================================
+   HERO BANNER - Reduced Title Size
+   ================================================== */
+
+.banner-section.style1 h1,
+.banner-section.style1 .banner-content h1,
+.banner-section h1 {
+  font-size: 54px !important;
+  line-height: 1.2 !important;
+}
+
+@media (max-width: 991px) {
+  .banner-section.style1 h1,
+  .banner-section.style1 .banner-content h1,
+  .banner-section h1 {
+    font-size: 40px !important;
+  }
+}
+
+@media (max-width: 575px) {
+  .banner-section.style1 h1,
+  .banner-section.style1 .banner-content h1,
+  .banner-section h1 {
+    font-size: 30px !important;
+  }
+}
+
+/* ===================================================
    CLEAN CUSTOM OVERRIDES FOR INDUSTRIES SECTION ONLY
    ================================================== */
 
@@ -75,14 +171,14 @@
    ================================================== */
 .hero-cta-btn:hover {
   background-color: var(--hero-cta-hover-bg) !important;
-  color: #2d2d2d !important;
+  color: var(--text) !important;
   transform: translateY(-2px);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15) !important;
 }
 
 .hero-cta-btn:hover .hero-arrow {
   transform: translateX(4px);
-  color: #2d2d2d !important;
+  color: var(--text) !important;
 }
 
 /* ===================================================
@@ -205,7 +301,7 @@
 
 /* Ensure icon background is visible in all themes - DEFAULT STATE */
 :root.theme-navy-amber .financial-items .icon.theme-bg {
-  background-color: #1E3A8A !important;
+  background-color: var(--theme) !important;
 }
 
 /* Hover state: Circle = White, Icon = Theme color */
@@ -259,12 +355,12 @@
 
 /* Navy & Amber - Circle in Navy, Icon White */
 :root.theme-navy-amber .choose-icon-circle {
-  background-color: #1E3A8A;
+  background-color: var(--theme);
 }
 
 /* Hover state - Circle becomes secondary color, Icon stays white */
 :root.theme-navy-amber .choose-items4:hover .choose-icon-circle {
-  background-color: #F59E0B;
+  background-color: var(--theme2);
   transform: scale(1.15);
 }
 
@@ -320,7 +416,7 @@
 
 /* Navy & Amber - Icon circle in Amber */
 :root.theme-navy-amber .service-icon-circle {
-  background-color: #F59E0B;
+  background-color: var(--theme2);
 }
 
 /* ===================================================
@@ -338,11 +434,11 @@
 
 /* Navy & Amber - Icon circles in Navy */
 :root.theme-navy-amber .cta-icon-circle {
-  background-color: #1E3A8A !important;
+  background-color: var(--theme) !important;
 }
 
 /* ===================================================
-/* FAQ SECTION - WHITE TEXT
+   FAQ SECTION - WHITE TEXT
    ================================================== */
 
 .faq-content_wrap h3,
@@ -428,7 +524,7 @@
 }
 
 .header-support-text {
-  color: #333333 !important;
+  color: var(--text) !important;
 }
 
 .header-support-subtext {
@@ -621,6 +717,414 @@ h6 {
   }
 }
 
+/* ===================================================
+   SERVICES PAGE - TAGLINE SECTION (DARK BG)
+   ================================================== */
+
+/* ===================================================
+   SERVICES PAGE - DETAILED SERVICES (Editorial blocks)
+   ================================================== */
+
+.ds-grid {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.ds-block {
+  padding: 48px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.ds-block-header {
+  position: sticky;
+  top: 120px;
+  padding-right: 24px;
+}
+
+.ds-num {
+  display: block;
+  font-size: 2.8rem;
+  font-weight: 800;
+  line-height: 1;
+  margin-bottom: 12px;
+  color: var(--theme);
+  opacity: 0.25;
+}
+
+.ds-subtitle {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--theme);
+  opacity: 0.8;
+  margin-top: 2px;
+}
+
+.ds-sub-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 28px 24px;
+  height: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+}
+
+.ds-sub-card:hover {
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.06);
+  transform: translateY(-3px);
+}
+
+.ds-sub-icon {
+  width: 36px;
+  height: 36px;
+  min-width: 36px;
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--theme) 10%, transparent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ds-sub-icon i {
+  font-size: 0.95rem;
+  color: var(--theme);
+}
+
+.ds-sub-desc {
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--theme);
+  opacity: 0.75;
+  margin-bottom: 14px;
+  line-height: 1.5;
+}
+
+.ds-check-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 8px;
+  font-size: 0.88rem;
+  color: var(--theme4);
+  line-height: 1.55;
+}
+
+.ds-check-icon {
+  flex-shrink: 0;
+  margin-top: 4px;
+}
+
+@media (max-width: 991px) {
+  .ds-block-header {
+    position: static;
+    padding-right: 0;
+    margin-bottom: 28px;
+  }
+
+  .ds-block {
+    padding: 32px 0;
+  }
+
+  .ds-num {
+    font-size: 2.2rem;
+  }
+}
+
+.ds-cta-wrapper {
+  padding-top: 16px;
+}
+
+.ds-cta-lead {
+  font-size: 0.9rem;
+  color: var(--theme);
+  opacity: 0.6;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+/* ===================================================
+   SERVICES PAGE - CAPABILITIES SECTION (Editorial layout)
+   ================================================== */
+
+.capabilities-section {
+  background: #ffffff;
+}
+
+.cap-grid {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.cap-row {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 40px 0;
+}
+
+.cap-col {
+  position: relative;
+}
+
+.cap-col--left {
+  padding-right: 40px;
+}
+
+.cap-col--right {
+  padding-left: 40px;
+}
+
+.cap-item {
+  padding: 0;
+}
+
+.cap-num {
+  font-size: 0.82rem;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.3);
+  min-width: 24px;
+}
+
+.cap-icon {
+  font-size: 1.15rem;
+  color: var(--theme4);
+  opacity: 0.6;
+}
+
+.cap-list {
+  padding-left: 56px;
+}
+
+.cap-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 6px;
+  font-size: 0.88rem;
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 1.6;
+}
+
+.cap-bullet {
+  color: var(--theme);
+  font-size: 0.7rem;
+  margin-top: 3px;
+  flex-shrink: 0;
+}
+
+.cap-arrow {
+  position: absolute;
+  right: -12px;
+  top: 12px;
+  color: rgba(0, 0, 0, 0.18);
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 991px) {
+  .cap-col--left,
+  .cap-col--right {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .cap-col--right {
+    margin-top: 28px;
+  }
+
+  .cap-arrow {
+    display: none !important;
+  }
+
+  .cap-list {
+    padding-left: 36px;
+  }
+
+  .cap-row {
+    padding: 28px 0;
+  }
+}
+
+/* ===================================================
+   SERVICES PAGE - CLIENTS (DARK BG, LOGO REVEAL ON SCROLL)
+   ================================================== */
+
+.clients-dark-section {
+  background: var(--theme, #1E3A8A);
+}
+
+.cl-row {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.cl-row:last-child {
+  margin-bottom: 0;
+}
+
+.cl-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* White box holding the logo */
+.cl-logo-box {
+  width: 100%;
+  height: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 16px 20px;
+  transition: box-shadow 0.4s ease, transform 0.4s ease;
+}
+
+/* Logo: uniform size, grayscale by default */
+.cl-logo {
+  display: block;
+  width: auto;
+  height: 42px;
+  max-width: 100%;
+  object-fit: contain;
+  filter: grayscale(100%) opacity(0.55);
+  transition: filter 0.6s ease, opacity 0.6s ease;
+}
+
+/* On scroll into view → color logo with staggered animation */
+.cl-cell--color .cl-logo {
+  filter: grayscale(0%) opacity(1);
+}
+
+.cl-cell--color .cl-logo-box {
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.12);
+}
+
+/* Hover lift */
+.cl-cell--color:hover .cl-logo-box {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.18);
+}
+
+@media (max-width: 991px) {
+  .cl-row {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-bottom: 12px;
+  }
+
+  .cl-logo-box {
+    height: 76px;
+    padding: 14px 16px;
+  }
+
+  .cl-logo {
+    height: 36px;
+  }
+}
+
+@media (max-width: 575px) {
+  .cl-row {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  .cl-logo-box {
+    height: 68px;
+    padding: 12px 14px;
+  }
+
+  .cl-logo {
+    height: 30px;
+  }
+}
+
+/* ===================================================
+   SERVICES PAGE - PARTNERS (KR / IN SPLIT)
+   ================================================== */
+
+
+   .partners-list-section {
+  background: var(--bg, #F3F4F6);
+}
+
+.partners-column-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-bottom: 16px;
+  border-bottom: 2px solid var(--theme4);
+  margin-bottom: 0;
+}
+
+.partners-country-tag {
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: var(--theme4);
+  letter-spacing: 0.02em;
+}
+
+.partners-country-tag--in {
+  color: var(--theme);
+}
+
+.partners-column-title {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--theme4);
+}
+
+.partners-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 18px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  transition: all 0.2s ease;
+}
+
+.partners-row:hover {
+  padding-left: 8px;
+}
+
+.partners-name {
+  font-size: 0.92rem;
+  color: var(--theme4);
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.partners-badge {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 12px;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.05);
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.45);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.partners-row:hover .partners-badge {
+  background: var(--theme);
+  color: #ffffff;
+}
+
+@media (max-width: 991px) {
+  .partners-column + .partners-column {
+    margin-top: 40px;
+  }
+}
+
 /* Header Contact button hover - change to primary color */
 .header-hamburger-inner .theme-btn.style-white:hover {
   background-color: var(--theme) !important;
@@ -630,4 +1134,106 @@ h6 {
 .header-hamburger-inner .theme-btn.style-white:hover i {
   background-color: #ffffff !important;
   color: var(--theme) !important;
+}
+
+/* ===================================================
+   ABOUT PAGE - CREDENTIALS / WHY CHOOSE US (Glassmorphism)
+   ================================================== */
+
+.credentials-section {
+  padding: 0;
+  margin: 0;
+}
+
+.credentials-bg {
+  background: linear-gradient(
+    135deg,
+    var(--theme) 0%,
+    color-mix(in srgb, var(--theme) 75%, var(--theme4)) 100%
+  );
+  padding: 56px 0;
+  position: relative;
+}
+
+.cred-strip {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+}
+
+.cred-item {
+  text-align: center;
+  padding: 24px 20px;
+  position: relative;
+}
+
+.cred-item:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 20%;
+  height: 60%;
+  width: 1px;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.cred-stat {
+  display: block;
+  font-size: 2.6rem;
+  font-weight: 800;
+  color: #ffffff;
+  line-height: 1.1;
+  margin-bottom: 4px;
+  letter-spacing: -0.02em;
+}
+
+.cred-label {
+  display: block;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 8px;
+}
+
+.cred-desc {
+  display: block;
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 1.55;
+  max-width: 220px;
+  margin: 0 auto;
+}
+
+@media (max-width: 991px) {
+  .cred-strip {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+  }
+
+  .cred-item:nth-child(2)::after {
+    display: none;
+  }
+
+  .cred-item:nth-child(1),
+  .cred-item:nth-child(2) {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  }
+}
+
+@media (max-width: 575px) {
+  .cred-strip {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .credentials-bg {
+    padding: 36px 0;
+  }
+
+  .cred-stat {
+    font-size: 2rem;
+  }
+
+  .cred-item {
+    padding: 18px 12px;
+  }
 }

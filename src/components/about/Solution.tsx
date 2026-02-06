@@ -13,33 +13,51 @@ const Solution = () => {
    const solution_data: DataType[] = [
       {
          id: 1,
+         date: "2017-2018",
+         title: t('about.solution.timeline.2017.title'),
+         desc: t('about.solution.timeline.2017.desc'),
+      },
+      {
+         id: 2,
+         date: "2019",
+         title: t('about.solution.timeline.2019.title'),
+         desc: t('about.solution.timeline.2019.desc'),
+      },
+      {
+         id: 3,
          date: "2020",
          title: t('about.solution.timeline.2020.title'),
          desc: t('about.solution.timeline.2020.desc'),
       },
       {
-         id: 2,
+         id: 4,
          date: "2021",
          title: t('about.solution.timeline.2021.title'),
          desc: t('about.solution.timeline.2021.desc'),
       },
       {
-         id: 3,
-         date: "2022",
-         title: t('about.solution.timeline.2022.title'),
-         desc: t('about.solution.timeline.2022.desc'),
-      },
-      {
-         id: 4,
+         id: 5,
          date: "2023",
          title: t('about.solution.timeline.2023.title'),
          desc: t('about.solution.timeline.2023.desc'),
       },
       {
-         id: 5,
+         id: 6,
          date: "2024",
          title: t('about.solution.timeline.2024.title'),
          desc: t('about.solution.timeline.2024.desc'),
+      },
+      {
+         id: 7,
+         date: "2025",
+         title: t('about.solution.timeline.2025a.title'),
+         desc: t('about.solution.timeline.2025a.desc'),
+      },
+      {
+         id: 8,
+         date: "2025",
+         title: t('about.solution.timeline.2025b.title'),
+         desc: t('about.solution.timeline.2025b.desc'),
       },
    ]
 

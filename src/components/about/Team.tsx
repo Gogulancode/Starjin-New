@@ -23,16 +23,23 @@ const Team = () => {
       {
          id: 2,
          thumb: "/assets/img/team/team2.png",
-         name: t('about.team.members.rajesh.name'),
-         designation: t('about.team.members.rajesh.designation'),
-         description: t('about.team.members.rajesh.description')
+         name: t('about.team.members.vijay.name'),
+         designation: t('about.team.members.vijay.designation'),
+         description: t('about.team.members.vijay.description')
       },
       {
          id: 3,
          thumb: "/assets/img/team/team3.png",
-         name: t('about.team.members.minjun.name'),
-         designation: t('about.team.members.minjun.designation'),
-         description: t('about.team.members.minjun.description')
+         name: t('about.team.members.young.name'),
+         designation: t('about.team.members.young.designation'),
+         description: t('about.team.members.young.description')
+      },
+      {
+         id: 4,
+         thumb: "/assets/img/team/member4.png",
+         name: t('about.team.members.james.name'),
+         designation: t('about.team.members.james.designation'),
+         description: t('about.team.members.james.description')
       }
    ]
 
@@ -63,7 +70,7 @@ const Team = () => {
             </div>
             <div className="row g-4 justify-content-center">
                {about_team_data.map((item) => (
-                  <div key={item.id} className="col-lg-4 col-md-6">
+                  <div key={item.id} className="col-lg-3 col-md-6">
                      <div className="team-items hover-translate8 px-4 py-4 section-bg rounded-4 h-100">
                         <div className="thumb w-100 overflow-hidden mb-4">
                            <img src={item.thumb} alt="img" className="w-100 rounded-3" style={{height: '250px', objectFit: 'cover'}} />
