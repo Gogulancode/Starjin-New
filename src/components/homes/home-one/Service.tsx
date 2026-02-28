@@ -13,21 +13,21 @@ const service_data: DataType[] = [
    {
       id: 1,
       icon: "fa-solid fa-handshake",
-      thumb: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      thumb: "/assets/img/service/Our Service- 1.png",
       titleKey: "services.items.0.title",
       descKey: "services.items.0.description"
    },
    {
       id: 2,
       icon: "fa-solid fa-calendar-days",
-      thumb: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      thumb: "/assets/img/service/Research & Strategic Advisory.png",
       titleKey: "services.items.1.title",
       descKey: "services.items.1.description"
    },
    {
       id: 3,
       icon: "fa-solid fa-building-columns",
-      thumb: "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      thumb: "/assets/img/service/Execution & Corporate Academy.png",
       titleKey: "services.items.2.title",
       descKey: "services.items.2.description"
    },
@@ -85,23 +85,17 @@ const Service = () => {
                {service_data.slice(0, 3).map((item) => (
                   <div key={item.id} className="col-lg-4 col-md-6">
                      <div
-                        className="team-items service-items1 hover-translate8 px-xxl-6 px-xxl-4 px-sm-3 px-3 section-bg rounded-4 h-100">
+                        className="team-items service-items1 hover-translate8 px-xxl-6 px-xl-4 px-sm-3 px-3 section-bg rounded-4 h-100 d-flex flex-column">
                         <div className="content d-flex align-items-start gap-3 justify-content-between">
                            <div>
-                              <h5 className="mb-sm-2 mb-1 wow fadeInUp" data-wow-delay=".3s">
-                                 <Link to="/services-details" className="theme-clr4 lh-110 fw-600">
-                                    {t(item.titleKey)}
-                                 </Link>
+                              <h5 className="mb-sm-2 mb-1 wow fadeInUp theme-clr4 lh-110 fw-600" data-wow-delay=".3s">
+                                 {t(item.titleKey)}
                               </h5>
                               <span className="fz-14 d-block theme-clr4 fw-500 mb-1">{t(item.descKey)}</span>
                            </div>
-                           <Link to="/services-details"
-                              className="theme-clr4 border hover-theme1 min-w-48 w-48 h-48 white-bg rounded-circle d-center d-xl-block d-none fs-five">
-                              <i className="fa-solid fa-arrow-right"></i>
-                           </Link>
                         </div>
-                        <div className="thumb w-100 overflow-hidden position-relative">
-                           <img src={item.thumb} className="w-100 rounded-bottom-3" alt={t(item.titleKey)} loading="lazy" />
+                        <div className="thumb w-100 overflow-hidden mt-auto">
+                           <img src={item.thumb} className="w-100 rounded-3" alt={t(item.titleKey)} loading="lazy" style={{height: '220px', objectFit: 'cover', objectPosition: 'center', display: 'block'}} />
                         </div>
                      </div>
                   </div>
