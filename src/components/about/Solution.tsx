@@ -94,15 +94,15 @@ const Solution = () => {
                }}></div>
                
                {solution_data.map((item, index) => (
-                  <div key={item.id} className={`timeline-item row align-items-center mb-5 ${index % 2 === 0 ? '' : 'flex-row-reverse'}`}>
+                  <div key={item.id} className={`timeline-item row align-items-center mb-4 mb-lg-5 g-0 ${index % 2 === 0 ? '' : 'flex-row-reverse'}`}>
                      {/* Content */}
-                     <div className="col-lg-5">
-                        <div className={`timeline-content p-4 rounded-4 ${index % 2 === 0 ? 'text-end' : 'text-start'}`} style={{
+                     <div className="col-lg-5 col-10 offset-2 offset-lg-0">
+                        <div className={`timeline-content p-3 p-lg-4 rounded-4 ${index % 2 === 0 ? 'text-lg-end text-start' : 'text-start'}`} style={{
                            backgroundColor: '#f8f9fa',
                            border: '1px solid #e9ecef',
                            boxShadow: '0 4px 15px rgba(0,0,0,0.1)'
                         }}>
-                           <div className={`timeline-date fw-bold mb-2 ${index % 2 === 0 ? 'text-end' : 'text-start'}`} style={{
+                           <div className={`timeline-date fw-bold mb-2 ${index % 2 === 0 ? 'text-lg-end text-start' : 'text-start'}`} style={{
                               color: '#023EDA',
                               fontSize: '1.2rem',
                               fontWeight: '600'
@@ -124,9 +124,9 @@ const Solution = () => {
                            </p>
                         </div>
                      </div>
-                     
+
                      {/* Center Dot */}
-                     <div className="col-lg-2 text-center">
+                     <div className="col-lg-2 col-2 text-center d-none d-lg-block">
                         <div className="timeline-dot position-relative" style={{
                            width: '20px',
                            height: '20px',
@@ -138,9 +138,9 @@ const Solution = () => {
                            boxShadow: '0 0 0 2px #023EDA'
                         }}></div>
                      </div>
-                     
+
                      {/* Spacer */}
-                     <div className="col-lg-5"></div>
+                     <div className="col-lg-5 d-none d-lg-block"></div>
                   </div>
                ))}
             </div>

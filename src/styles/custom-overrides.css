@@ -1456,3 +1456,101 @@ h6 {
     padding: 18px 12px;
   }
 }
+
+/* ===================================================
+   MOBILE LANGUAGE TOGGLE (next to hamburger)
+   ================================================== */
+
+.mobile-lang-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 10px;
+  border-radius: 100px;
+  border: 1px solid var(--border, #e0e0e0);
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.mobile-lang-toggle:hover,
+.mobile-lang-toggle:active {
+  background: rgba(0, 0, 0, 0.04);
+  border-color: var(--theme);
+}
+
+.mobile-lang-toggle__flag {
+  font-size: 14px;
+  line-height: 1;
+}
+
+.mobile-lang-toggle__label {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: 0.04em;
+}
+
+/* ===================================================
+   MOBILE MENU - REMOVE UNDERLINES FROM NAV ITEMS
+   ================================================== */
+
+.mean-container .mean-nav ul li a {
+  border-bottom: none !important;
+}
+
+/* ===================================================
+   HOME PAGE - SERVICE SECTION OVERLAP
+   ================================================== */
+
+.service-overlap {
+  margin-top: -60px;
+  border-radius: 24px 24px 0 0;
+  position: relative;
+  z-index: 2;
+}
+
+@media (max-width: 991px) {
+  .service-overlap {
+    margin-top: 0;
+    border-radius: 0;
+  }
+}
+
+/* ===================================================
+   ABOUT PAGE - TIMELINE MOBILE RESPONSIVE
+   ================================================== */
+
+@media (max-width: 991px) {
+  /* Move the vertical line to the left edge on mobile */
+  .timeline-wrapper .timeline-line {
+    left: 16px !important;
+    transform: none !important;
+  }
+
+  /* Make all items flow left-aligned, never reverse */
+  .timeline-item.flex-row-reverse {
+    flex-direction: row !important;
+  }
+
+  /* Add a small dot on the left line for each timeline item */
+  .timeline-item {
+    position: relative;
+  }
+
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 14px;
+    height: 14px;
+    background-color: #023EDA;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 0 0 2px #023EDA;
+    z-index: 2;
+  }
+}

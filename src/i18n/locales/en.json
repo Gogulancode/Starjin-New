@@ -40,7 +40,10 @@
     "testimonial": "Testimonial",
     "pricing": "Pricing",
     "faq": "FAQ",
-    "viewMore": "View More"
+    "viewMore": "View More",
+    "privacy policy": "Privacy Policy",
+    "terms of service": "Terms of Service",
+    "cookie policy": "Cookie Policy"
   },
   "about": {
     "financial": {
@@ -887,7 +890,8 @@
     "services": "Services",
     "contactUs": "Contact Us",
     "koreaOffice": "Korea Office",
-    "indiaOffice": "STARAJIN India Pvt. Ltd.",
+    "indiaOffice": "India Office",
+    "indiaCompany": "STARAJIN India Pvt. Ltd.",
     "seoulLocation": "Seoul, South Korea",
     "mumbaiLocation": "Office No. 928, 9th Floor, The Summit Business Bay, Andheri\u2013Kurla Road, Andheri (East), Mumbai \u2013 400093",
     "koreaEmail": "contact@starajin.com",
@@ -919,5 +923,265 @@
     "getQuote": "Get A Quote",
     "getConsultation": "Get Consultation",
     "contactUs": "Contact Us"
+  },
+  "blogDetails": {
+    "previousPost": "Previous post",
+    "nextPost": "Next post",
+    "posts": {
+      "1": {
+        "title": "Korea–India Trade Relations Reach New Heights in 2026",
+        "author": "Trade Analyst",
+        "date": "15 January 2026",
+        "subtitle": "A Milestone in Bilateral Economic Cooperation",
+        "content": [
+          "The year 2026 has marked a remarkable chapter in the growing partnership between Korea and India, as bilateral trade surpassed the $25 billion mark — a significant milestone that underscores the deepening economic ties between the two dynamic Asian economies.",
+          "This achievement reflects the mutual commitment of both nations to fostering stronger trade relations, technological collaboration, and sustainable growth. From automobiles and electronics to information technology, renewable energy, and cultural exchange, the Korea–India relationship continues to evolve beyond traditional trade boundaries."
+        ],
+        "sections": [
+          {
+            "title": "A Strategic Economic Partnership",
+            "content": [
+              "Korea and India share a long-standing partnership rooted in shared values of innovation, entrepreneurship, and global competitiveness. The recent surge in bilateral trade is driven by collaborative initiatives in sectors such as:",
+              "These partnerships not only enhance economic growth but also contribute to regional stability and sustainable development."
+            ],
+            "list": [
+              "Manufacturing and Automotive – Korea's advanced manufacturing capabilities have complemented India's expanding industrial base, creating new opportunities for supply chain integration and technology transfer.",
+              "Information Technology and Startups – Korean innovation hubs and Indian tech talent have led to numerous cross-border partnerships and startup exchanges.",
+              "Energy and Sustainability – Both nations are investing heavily in clean energy collaborations, including solar, hydrogen, and electric mobility projects."
+            ]
+          },
+          {
+            "title": "Government Initiatives Driving Growth",
+            "content": [
+              "The milestone trade volume is supported by strategic policy frameworks and government-to-government cooperation. Programs such as the Korea–India Comprehensive Economic Partnership Agreement (CEPA) have simplified trade barriers and encouraged investment flow.",
+              "Additionally, business missions, trade expos, and innovation forums held in Seoul, New Delhi, and other major cities have paved the way for stronger B2B and G2B networks."
+            ]
+          },
+          {
+            "title": "The Road Ahead: Collaboration Beyond Commerce",
+            "content": [
+              "Beyond economics, this partnership represents a bridge of cultural understanding and shared innovation. Initiatives in education, tourism, and the creative industries — such as art collaborations and student exchange programs — are enriching both societies.",
+              "As Korea and India continue to expand their strategic cooperation, 2026 will be remembered not just as a year of trade achievement but as a turning point toward a future built on trust, innovation, and mutual growth."
+            ]
+          }
+        ],
+        "quoteText": "The milestone trade volume is supported by strategic policy frameworks and government-to-government cooperation",
+        "quoteAuthor": "Korean Trade Ministry",
+        "prevPost": "Korean Investment Opportunities",
+        "nextPost": "Korean Startups in India"
+      },
+      "2": {
+        "title": "Korean Startups Eye Indian Market Expansion",
+        "author": "Tech Reporter",
+        "date": "28 January 2026",
+        "subtitle": "A New Wave of Cross-Border Innovation",
+        "content": [
+          "In a bold move signaling deepening collaboration between two of Asia's fastest-growing economies, major Korean tech companies have announced plans for significant investments in the Indian startup ecosystem. The focus areas — fintech and e-commerce — highlight sectors where India's digital transformation and Korea's technological expertise can create immense value together.",
+          "With India emerging as one of the world's most dynamic startup hubs, Korean investors see an unprecedented opportunity to engage with a market that is not only vast in scale but also diverse in innovation and consumer behavior."
+        ],
+        "sections": [
+          {
+            "title": "Why India Is the Next Big Destination for Korean Startups",
+            "content": [
+              "India's thriving digital economy offers an ecosystem uniquely suited for Korean expansion:",
+              "This combination of scale, innovation, and supportive policy makes India a natural partner for Korea's next phase of startup globalization."
+            ],
+            "list": [
+              "A rapidly growing middle class and increasing smartphone penetration are fueling e-commerce growth at record speed.",
+              "Government initiatives like 'Digital India' and 'Startup India' have created a fertile environment for global investment and innovation.",
+              "Fintech adoption is accelerating, with UPI (Unified Payments Interface) revolutionizing how millions transact daily — an area where Korean startups see clear synergies."
+            ]
+          },
+          {
+            "title": "Strategic Focus: Fintech and E-Commerce",
+            "content": [
+              "Korean startups are known for their cutting-edge technology, design thinking, and agility. By aligning with Indian entrepreneurs and local investors, they aim to:",
+              "These collaborations are expected to generate thousands of jobs, accelerate technology transfer, and create new business models for both markets."
+            ],
+            "list": [
+              "Leverage digital payment infrastructure to introduce new financial products tailored to India's diverse customer base.",
+              "Expand e-commerce logistics and user-experience technologies, integrating Korean precision and Indian market insight.",
+              "Foster co-innovation hubs that bring together Korean R&D and Indian software excellence."
+            ]
+          },
+          {
+            "title": "Government and Institutional Support",
+            "content": [
+              "Bilateral initiatives such as the Korea-India Startup Alliance and innovation MoUs between business incubators are already laying the groundwork for structured collaboration. Korean accelerators and venture funds are also partnering with Indian institutions like i-Hub, IITs, and state innovation missions to support early-stage ventures and shared R&D programs.",
+              "This government-backed facilitation ensures a stable framework for sustainable growth and trust-based investment."
+            ]
+          },
+          {
+            "title": "Looking Ahead: Building a Trans-Asian Innovation Bridge",
+            "content": [
+              "The growing synergy between Korean technological advancement and India's entrepreneurial energy is setting the stage for a transformative decade in Asia's innovation landscape. Beyond capital infusion, this partnership is about mutual learning, co-creation, and shared progress.",
+              "As Korean startups deepen their roots in India, the two nations stand poised to lead the next wave of digital innovation — one that combines creativity, inclusivity, and cross-cultural excellence."
+            ]
+          }
+        ],
+        "quoteText": "Korean startups are known for their cutting-edge technology, design thinking, and agility",
+        "quoteAuthor": "Korean Innovation Hub",
+        "prevPost": "Korea-India Trade Relations",
+        "nextPost": "Cultural Exchange Programs"
+      },
+      "3": {
+        "title": "Cultural Exchange Programs Show Promising Results",
+        "author": "Cultural Reporter",
+        "date": "10 February 2026",
+        "subtitle": "Korea–India Collaboration Enters a New Era of Cultural Synergy",
+        "content": [
+          "2026 has been a defining year for Korea–India cultural exchange initiatives, as both nations report record participation and meaningful outcomes across education, art, and creative collaborations. These programs, designed to strengthen mutual understanding and cultural appreciation, are now becoming an integral part of the broader bilateral relationship between the two countries.",
+          "Through shared experiences in education, art, music, and film, both Korea and India are discovering new avenues to deepen people-to-people connections while enhancing their soft power influence in Asia and beyond."
+        ],
+        "sections": [
+          {
+            "title": "Art, Education, and Beyond",
+            "content": [
+              "Several cultural exchange programs have shown remarkable impact over the past year:",
+              "These activities underscore how art and education can serve as bridges between societies — nurturing empathy, creativity, and collaboration."
+            ],
+            "list": [
+              "Art and Performance Collaborations: The India–Korea Artist Camp and joint exhibitions organized by cultural groups such as the Namilsand Culture & Education Group have brought together emerging and established artists from both countries.",
+              "Academic and Educational Partnerships: Student exchange programs between Sogang University and Indian institutions like IIT Roorkee have fostered collaborative research and intercultural learning.",
+              "Language and Literature: The Korean translation of India's bestseller Super 30 has become a cultural milestone, inspiring further literary exchange initiatives."
+            ]
+          },
+          {
+            "title": "Government and Institutional Support",
+            "content": [
+              "Much of this progress has been enabled by the strong commitment of organizations such as KOFICE (Korea Foundation for International Cultural Exchange) and Indian counterparts in the education and cultural sectors.",
+              "Through co-funded projects, youth programs, and bilateral cultural pacts, both governments have prioritized sustainable, inclusive cultural engagement as part of their long-term diplomatic agenda.",
+              "Such institutional backing ensures that these initiatives extend beyond symbolic gestures — translating into measurable social, educational, and economic impact."
+            ]
+          },
+          {
+            "title": "A Shared Vision for the Future",
+            "content": [
+              "The success of these cultural collaborations signals a growing recognition that cultural diplomacy is as vital as economic partnership. By investing in creativity, learning, and shared heritage, Korea and India are laying the foundation for a resilient and forward-looking partnership.",
+              "As participation continues to rise and joint projects expand in scope, the Korea–India cultural bridge promises to evolve into a dynamic platform for innovation, understanding, and shared human experience — reminding us that true progress is built not just on trade and technology, but on the connection of hearts and ideas."
+            ]
+          }
+        ],
+        "quoteText": "Cultural diplomacy is as vital as economic partnership in building lasting international relationships",
+        "quoteAuthor": "KOFICE Director",
+        "prevPost": "Korean Startups in India",
+        "nextPost": "Future Collaborations"
+      }
+    }
+  },
+  "legal": {
+    "lastUpdated": "Last Updated: February 2026",
+    "privacy": {
+      "title": "Privacy Policy",
+      "intro": "StaraJIN, Inc. (\"StaraJIN,\" \"we,\" \"us,\" or \"our\") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your personal information when you visit our website or use our services.",
+      "section1Title": "Information We Collect",
+      "section1Text": "We collect information that you voluntarily provide to us when you:",
+      "section1Items": [
+        "Fill out our contact or inquiry form (name, email address, phone number, company name, message)",
+        "Subscribe to our newsletter",
+        "Request a consultation or service quote",
+        "Communicate with us via email or phone"
+      ],
+      "section1Extra": "We also automatically collect certain technical information when you visit our website, including your IP address, browser type, device information, and pages visited.",
+      "section2Title": "How We Use Your Information",
+      "section2Text": "We use the information we collect to:",
+      "section2Items": [
+        "Respond to your inquiries and provide requested services",
+        "Facilitate Korea–India business consulting, market entry support, and partner matching",
+        "Send relevant updates about our services (with your consent)",
+        "Improve our website and user experience",
+        "Comply with legal obligations in Korea and India"
+      ],
+      "section3Title": "Data Sharing",
+      "section3Text": "We do not sell, trade, or rent your personal information to third parties. We may share your information only in the following circumstances:",
+      "section3Items": [
+        "Between our Korea (Seoul) and India (Mumbai) offices as necessary to deliver our services",
+        "With trusted service providers who assist in operating our website and business (subject to confidentiality agreements)",
+        "When required by law or to protect our legal rights"
+      ],
+      "section4Title": "Data Security",
+      "section4Text": "We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction. However, no method of transmission over the Internet is 100% secure.",
+      "section5Title": "Your Rights",
+      "section5Text": "You have the right to:",
+      "section5Items": [
+        "Access the personal information we hold about you",
+        "Request correction of inaccurate information",
+        "Request deletion of your personal information",
+        "Withdraw consent for marketing communications at any time"
+      ],
+      "section6Title": "Data Retention",
+      "section6Text": "We retain your personal information only for as long as necessary to fulfill the purposes for which it was collected, or as required by applicable laws in Korea and India.",
+      "section7Title": "Contact Us",
+      "section7Text": "If you have any questions about this Privacy Policy or wish to exercise your rights, please contact us at:",
+      "section7Email": "Email: contact@starajin.com",
+      "section7Korea": "Korea Office: +82-507-139-1995",
+      "section7India": "India Office: +91-897-624-1508"
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "intro": "Welcome to StaraJIN. By accessing or using our website and services, you agree to be bound by these Terms of Service. Please read them carefully.",
+      "section1Title": "Acceptance of Terms",
+      "section1Text": "By accessing our website at starajin.com or engaging our consulting services, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service and all applicable laws and regulations.",
+      "section2Title": "Our Services",
+      "section2Text": "StaraJIN provides Korea–India business consulting services including, but not limited to:",
+      "section2Items": [
+        "India market entry consulting and strategy",
+        "Research and strategic advisory services",
+        "Business partner identification and matching",
+        "Government and institutional project facilitation",
+        "Cross-cultural corporate training and capability programs",
+        "On-ground execution and operational support"
+      ],
+      "section3Title": "User Responsibilities",
+      "section3Text": "When using our website and services, you agree to:",
+      "section3Items": [
+        "Provide accurate and complete information in all forms and communications",
+        "Use our website and services only for lawful purposes",
+        "Not attempt to gain unauthorized access to any part of our website or systems",
+        "Not reproduce, duplicate, or exploit any part of our website without express written permission"
+      ],
+      "section4Title": "Intellectual Property",
+      "section4Text": "All content on this website, including text, graphics, logos, images, and software, is the property of StaraJIN, Inc. and is protected by intellectual property laws. The StaraJIN name, logo, and all related trademarks are the exclusive property of StaraJIN, Inc.",
+      "section5Title": "Confidentiality",
+      "section5Text": "Any business information, strategies, or proprietary data shared between StaraJIN and its clients during the course of our consulting engagement shall be treated as confidential and shall not be disclosed to third parties without prior written consent.",
+      "section6Title": "Limitation of Liability",
+      "section6Text": "StaraJIN provides consulting and advisory services in good faith based on our expertise and market knowledge. We shall not be held liable for any indirect, incidental, or consequential damages arising from the use of our services or reliance on our advice. Business decisions remain the sole responsibility of the client.",
+      "section7Title": "Governing Law",
+      "section7Text": "These Terms of Service shall be governed by and construed in accordance with the laws of the Republic of Korea. For services delivered in India, applicable Indian laws shall also apply. Any disputes shall be resolved through good-faith negotiation, and if necessary, through arbitration in Seoul, South Korea.",
+      "section8Title": "Changes to Terms",
+      "section8Text": "StaraJIN reserves the right to modify these Terms of Service at any time. Changes will be effective immediately upon posting on our website. Your continued use of our services after any changes constitutes your acceptance of the updated terms.",
+      "section9Title": "Contact Us",
+      "section9Text": "For any questions regarding these Terms of Service, please contact us at contact@starajin.com."
+    },
+    "cookies": {
+      "title": "Cookie Policy",
+      "intro": "This Cookie Policy explains how StaraJIN, Inc. uses cookies and similar technologies on our website starajin.com.",
+      "section1Title": "What Are Cookies",
+      "section1Text": "Cookies are small text files that are placed on your device when you visit a website. They are widely used to make websites work more efficiently and to provide information to website owners.",
+      "section2Title": "Cookies We Use",
+      "section2Text": "We use the following types of cookies:",
+      "section2Sub1Title": "Essential Cookies",
+      "section2Sub1Text": "These cookies are necessary for the website to function properly. They enable basic features such as page navigation, language preferences, and access to secure areas. The website cannot function properly without these cookies.",
+      "section2Sub2Title": "Analytics Cookies",
+      "section2Sub2Text": "These cookies help us understand how visitors interact with our website by collecting and reporting information anonymously. This helps us improve our website's performance and user experience.",
+      "section2Sub3Title": "Preference Cookies",
+      "section2Sub3Text": "These cookies remember your preferences, such as your selected language (English or Korean), to provide a more personalized experience on return visits.",
+      "section3Title": "Managing Cookies",
+      "section3Text": "You can control and manage cookies through your browser settings. Most browsers allow you to:",
+      "section3Items": [
+        "View what cookies are stored and delete them individually",
+        "Block third-party cookies",
+        "Block cookies from specific websites",
+        "Block all cookies",
+        "Delete all cookies when you close your browser"
+      ],
+      "section3Extra": "Please note that disabling cookies may affect the functionality of our website, including your language preference settings.",
+      "section4Title": "Third-Party Cookies",
+      "section4Text": "We may use third-party services such as Google Analytics that set their own cookies. We do not control these third-party cookies. Please refer to the respective third-party privacy policies for more information.",
+      "section5Title": "Changes to This Policy",
+      "section5Text": "We may update this Cookie Policy from time to time to reflect changes in technology or legislation. Any changes will be posted on this page with an updated date.",
+      "section6Title": "Contact Us",
+      "section6Text": "If you have any questions about our use of cookies, please contact us at contact@starajin.com."
+    }
   }
 }

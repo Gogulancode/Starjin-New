@@ -121,6 +121,9 @@ const FooterOne = () => {
                               <h6 className="fw-semibold text-white mb-1" style={{ fontSize: '0.9rem' }}>
                                  {t('footer.indiaOffice')}
                               </h6>
+                              <p className="text-white fw-semibold mb-1" style={{ fontSize: '0.85rem' }}>
+                                 {t('footer.indiaCompany')}
+                              </p>
                               <ul className="list-unstyled text-white mb-0" style={{ fontSize: '0.85rem' }}>
                                  <li className="d-flex align-items-center gap-2 mb-1">
                                     <i className="fa-light fa-location-dot" style={{ width: '14px' }}></i>
@@ -148,9 +151,9 @@ const FooterOne = () => {
                         </div>
                         
                         <div className="d-flex align-items-center gap-4 small">
-                           <span className="text-white text-decoration-none footer-legal-link" style={{ opacity: 0.8, cursor: 'default' }}>{t('footer.privacyPolicy')}</span>
-                           <span className="text-white text-decoration-none footer-legal-link" style={{ opacity: 0.8, cursor: 'default' }}>{t('footer.termsOfService')}</span>
-                           <span className="text-white text-decoration-none footer-legal-link" style={{ opacity: 0.8, cursor: 'default' }}>{t('footer.cookiePolicy')}</span>
+                           <Link to="/privacy-policy" className="text-white text-decoration-none footer-legal-link" style={{ opacity: 0.8 }}>{t('footer.privacyPolicy')}</Link>
+                           <Link to="/terms-of-service" className="text-white text-decoration-none footer-legal-link" style={{ opacity: 0.8 }}>{t('footer.termsOfService')}</Link>
+                           <Link to="/cookie-policy" className="text-white text-decoration-none footer-legal-link" style={{ opacity: 0.8 }}>{t('footer.cookiePolicy')}</Link>
                         </div>
                      </div>
                   </div>

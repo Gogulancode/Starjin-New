@@ -25,7 +25,7 @@ const Offcanvas = ({ offCanvas, setOffCanvas }: MobileSidebarProps) => {
                      <div className="offcanvas__top mb-4 d-flex justify-content-between align-items-center">
                         <div className="offcanvas__logo">
                            <Link to="/">
-                              <img src="assets/img/logo/Starajin - Header.png" alt="StaraJIN Logo" />
+                              <img src="assets/img/logo/Starajin - Header.png" alt="StaraJIN Logo" style={{ maxWidth: '120px', height: 'auto' }} />
                            </Link>
                         </div>
                         
@@ -72,9 +72,9 @@ const Offcanvas = ({ offCanvas, setOffCanvas }: MobileSidebarProps) => {
                                  <i className="fal fa-envelope"></i>
                               </div>
                               <div className="offcanvas__contact-text">
-                                 <Link to="mailto:info@starajin.com">
-                                    <span>info@starajin.com</span>
-                                 </Link>
+                                 <a href={`mailto:${t('footer.koreaEmail')}`}>
+                                    <span>{t('footer.koreaEmail')}</span>
+                                 </a>
                               </div>
                            </li>
                            <li className="d-flex align-items-center">
@@ -90,7 +90,7 @@ const Offcanvas = ({ offCanvas, setOffCanvas }: MobileSidebarProps) => {
                                  <i className="far fa-phone"></i>
                               </div>
                               <div className="offcanvas__contact-text">
-                                 <Link to="tel:+82-2-1234-5678">+82-2-1234-5678</Link>
+                                 <a href={`tel:${t('footer.koreaPhone')}`}>{t('footer.koreaPhone')}</a>
                               </div>
                            </li>
                         </ul>

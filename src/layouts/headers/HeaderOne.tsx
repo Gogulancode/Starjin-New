@@ -108,19 +108,31 @@ const HeaderOne = () => {
                         </a>
                      </div>
 
-                     {/* Mobile hamburger */}
-                     <button
-                        className="header-burger d-xl-none"
-                        onClick={toggleOffCanvas}
-                        aria-label={t('nav.openMenu', 'Open navigation menu')}
-                        aria-expanded={offCanvas}
-                        aria-controls="offcanvas-menu"
-                        type="button"
-                     >
-                        <span className="header-burger__line" />
-                        <span className="header-burger__line" />
-                        <span className="header-burger__line" />
-                     </button>
+                     {/* Mobile: language toggle + hamburger */}
+                     <div className="d-xl-none d-flex align-items-center gap-2">
+                        <button
+                           className="mobile-lang-toggle"
+                           onClick={() => i18n.changeLanguage(isKorean ? 'en' : 'ko')}
+                           aria-label={isKorean ? 'Switch to English' : '한국어로 전환'}
+                           type="button"
+                        >
+                           <span className="mobile-lang-toggle__flag">{isKorean ? '🇺🇸' : '🇰🇷'}</span>
+                           <span className="mobile-lang-toggle__label">{isKorean ? 'EN' : 'KO'}</span>
+                        </button>
+
+                        <button
+                           className="header-burger"
+                           onClick={toggleOffCanvas}
+                           aria-label={t('nav.openMenu', 'Open navigation menu')}
+                           aria-expanded={offCanvas}
+                           aria-controls="offcanvas-menu"
+                           type="button"
+                        >
+                           <span className="header-burger__line" />
+                           <span className="header-burger__line" />
+                           <span className="header-burger__line" />
+                        </button>
+                     </div>
                   </div>
                </div>
             </div>
