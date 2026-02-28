@@ -28,7 +28,7 @@ const clients: Client[] = [
    { name: "YW Mobile", logo: "/assets/img/clients/yw-mobile.png" },
    { name: "REM Magnetics", logo: "/assets/img/clients/rem-magnetics.png" },
    { name: "Buja Tape", logo: "/assets/img/clients/buja-tape.jpeg" },
-   { name: "Softberry", logo: "/assets/img/clients/softberry.avif" },
+   { name: "Softberry", logo: "/assets/img/clients/softberry.png" },
    { name: "ICCK", logo: "/assets/img/clients/icck.jpg" },
    { name: "Sogang University", logo: "/assets/img/clients/Sogang University.png" },
    { name: "Korea Press Foundation", logo: "/assets/img/clients/Korea Press Foundation.jpg" },

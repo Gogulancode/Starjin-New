@@ -30,7 +30,7 @@ const brand_data: BrandType[] = [
    { id: 21, logo: "/assets/img/clients/rf-chemical.png", name: "R&F Chemical" },
    { id: 22, logo: "/assets/img/clients/rem-magnetics.png", name: "REM Magnetics" },
    { id: 23, logo: "/assets/img/clients/ambani-tiles.png", name: "Ambani Tiles" },
-   { id: 24, logo: "/assets/img/clients/softberry.avif", name: "Softberry" },
+   { id: 24, logo: "/assets/img/clients/softberry.png", name: "Softberry" },
    { id: 25, logo: "/assets/img/clients/the-plan-g.jpeg", name: "The Plan G" },
    { id: 26, logo: "/assets/img/clients/yw-mobile.png", name: "YW Mobile" },
    { id: 27, logo: "/assets/img/clients/kakao-client.jpg", name: "Kakao Client" },

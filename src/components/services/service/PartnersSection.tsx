@@ -19,18 +19,22 @@ const partnerLogos: Record<string, string> = {
    ICICI: "/assets/img/partners/ICICI Bank.png",
    IITR: "/assets/img/partners/IIT Roorkee Startup Center iHub Divya Sampark.png",
    GAM: "/assets/img/partners/Gradiant Asset Management (Gradiant Fund).png",
+   DONGIN: "/assets/img/partners/Dongin.png",
+   JVN: "/assets/img/partners/JVN Co LLP.png",
 };
 
 const PartnersSection = () => {
    const { t } = useTranslation();
-   const [activeTab, setActiveTab] = useState<'kr' | 'in'>('kr');
+   const [activeTab, setActiveTab] = useState<'kr' | 'in' | 'alliance'>('kr');
 
    const rawKorea = t('services.partners.koreaPartners', { returnObjects: true });
    const rawIndia = t('services.partners.indiaPartners', { returnObjects: true });
+   const rawAlliance = t('services.partners.alliancePartners', { returnObjects: true });
    const koreaPartners: Partner[] = Array.isArray(rawKorea) ? rawKorea : [];
    const indiaPartners: Partner[] = Array.isArray(rawIndia) ? rawIndia : [];
+   const alliancePartners: Partner[] = Array.isArray(rawAlliance) ? rawAlliance : [];
 
-   const partners = activeTab === 'kr' ? koreaPartners : indiaPartners;
+   const partners = activeTab === 'kr' ? koreaPartners : activeTab === 'in' ? indiaPartners : alliancePartners;
 
    return (
       <>
@@ -278,6 +282,17 @@ const PartnersSection = () => {
                         <div className="ptr-tab__info">
                            <div className="ptr-tab__title">{t('services.partners.indiaSide')}</div>
                            <div className="ptr-tab__sub">{t('services.partners.indiaSub')}</div>
+                        </div>
+                        <i className="fa-solid fa-chevron-right ptr-tab__arrow"></i>
+                     </button>
+                     <button
+                        className={`ptr-tab ${activeTab === 'alliance' ? 'ptr-tab--active' : ''}`}
+                        onClick={() => setActiveTab('alliance')}
+                     >
+                        <span className="ptr-tab__flag" style={{ fontSize: '22px', color: 'var(--theme, #023EDA)' }}><i className="fa-solid fa-handshake"></i></span>
+                        <div className="ptr-tab__info">
+                           <div className="ptr-tab__title">{t('services.partners.allianceSide')}</div>
+                           <div className="ptr-tab__sub">{t('services.partners.allianceSub')}</div>
                         </div>
                         <i className="fa-solid fa-chevron-right ptr-tab__arrow"></i>
                      </button>

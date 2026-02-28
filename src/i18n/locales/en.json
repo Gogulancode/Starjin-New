@@ -172,7 +172,7 @@
           "name": "Yujin Han",
           "designation": "CEO",
           "description": "Expert in Korea-India business relations with 10+ years experience in international consulting.",
-          "linkedin": "https://www.linkedin.com/in/yujin-han"
+          "linkedin": "https://www.linkedin.com/in/yujin-han-konnectin-indiacurator/"
         },
         "vijay": {
           "name": "Vijay Vyas",
@@ -787,16 +787,17 @@
       "title": "Building Bridges Between Korea and India",
       "description": "Our trusted network of institutional partners ensures seamless support on both sides of the corridor.",
       "koreaSide": "Korea-Side Partners",
-      "koreaSub": "Republic of Korea",
+      "koreaSub": "",
       "indiaSide": "India-Side Partners",
-      "indiaSub": "Republic of India",
+      "indiaSub": "",
       "viewAll": "View All Partners",
       "koreaPartners": [
         { "name": "Korea Foundation for International Cultural Exchange", "abbr": "KOFICE" },
         { "name": "Korea SMEs and Startups Agency", "abbr": "KOSME" },
         { "name": "Korea Tourism Organization", "abbr": "KTO" },
         { "name": "Korea Importers Association", "abbr": "KOIMA" },
-        { "name": "Consulate General of Korea Mumbai", "abbr": "CGK" }
+        { "name": "Consulate General of Korea Mumbai", "abbr": "CGK" },
+        { "name": "Gradiant Asset Management", "abbr": "GAM" }
       ],
       "indiaPartners": [
         { "name": "Indian Chamber of Commerce in Korea", "abbr": "ICCK" },
@@ -804,8 +805,13 @@
         { "name": "Pimpri Chinchwad Education Trust", "abbr": "PCET" },
         { "name": "Pimpri Chinchwad University", "abbr": "PCU" },
         { "name": "ICICI Bank", "abbr": "ICICI" },
-        { "name": "IIT Roorkee", "abbr": "IITR" },
-        { "name": "Gradiant Asset Management", "abbr": "GAM" }
+        { "name": "IIT Roorkee", "abbr": "IITR" }
+      ],
+      "allianceSide": "Alliance Partners",
+      "allianceSub": "",
+      "alliancePartners": [
+        { "name": "Dongin Law Group LLC", "abbr": "DONGIN" },
+        { "name": "JVN & Co LLP", "abbr": "JVN" }
       ]
     }
   },
