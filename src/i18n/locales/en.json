@@ -1183,5 +1183,21 @@
       "section6Title": "Contact Us",
       "section6Text": "If you have any questions about our use of cookies, please contact us at contact@starajin.com."
     }
+  },
+  "error": {
+    "title": "Sorry! Page not found.",
+    "description": "The page you are looking for was moved, removed, renamed or never existed.",
+    "goHome": "Go To Home"
+  },
+  "contactForm": {
+    "yourName": "Your Name*",
+    "yourEmail": "Your Email*",
+    "yourPhone": "Your Phone*",
+    "subject": "Subject*",
+    "yourMessage": "Your Message*",
+    "writePlaceholder": "Write Message",
+    "sendNow": "Send Now",
+    "successMessage": "Message sent successfully",
+    "errorMessage": "Failed to send message"
   }
 }

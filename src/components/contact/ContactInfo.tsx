@@ -29,7 +29,7 @@ const ContactInfo = () => {
                      </div>
                      <span className="theme-clr4 d-block mb-00">{t('contact.info.phone')}</span>
                      <h5>
-                        <Link to="tel:+82212345678" className="fw-bold theme-clr4">+82-2-1234-5678</Link>
+                        <a href={`tel:${t('footer.koreaPhone')}`} className="fw-bold theme-clr4">{t('footer.koreaPhone')}</a>
                      </h5>
                   </div>
                </div>
@@ -44,7 +44,7 @@ const ContactInfo = () => {
                      </div>
                      <span className="theme-clr4 d-block mb-00">{t('contact.info.email')}</span>
                      <h5>
-                        <Link to="mailto:korea@starajin.com" className="fw-bold theme-clr4">korea@starajin.com</Link>
+                        <a href={`mailto:${t('footer.koreaEmail')}`} className="fw-bold theme-clr4">{t('footer.koreaEmail')}</a>
                      </h5>
                   </div>
                </div>

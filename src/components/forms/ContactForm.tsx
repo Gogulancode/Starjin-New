@@ -4,6 +4,7 @@ import { useForm } from "react-hook-form";
 import { yupResolver } from '@hookform/resolvers/yup';
 import emailjs from '@emailjs/browser';
 import { useRef } from 'react';
+import { useTranslation } from 'react-i18next';
 
 interface FormData {
    user_name: string;
@@ -30,6 +31,7 @@ const schema = yup
 
 const ContactForm = () => {
 
+   const { t } = useTranslation();
    const { register, handleSubmit, reset, formState: { errors }, } = useForm<FormData>({ resolver: yupResolver(schema), });
 
    const form = useRef<HTMLFormElement>(null);
@@ -39,12 +41,11 @@ const ContactForm = () => {
          emailjs.sendForm('service_yvmrs1n', 'template_mg697cv',
             form.current, 'OB0j1AZNx8_U5GsHk')
             .then((result) => {
-               const notify = () => toast('Message sent successfully', { position: 'top-center' });
-               notify();
+               toast(t('contactForm.successMessage'), { position: 'top-center' });
                reset();
                void result;
             }, () => {
-               toast('Failed to send message', { position: 'top-center' });
+               toast(t('contactForm.errorMessage'), { position: 'top-center' });
             });
       } else {
          // Form ref not available
@@ -55,33 +56,33 @@ const ContactForm = () => {
       <form ref={form} onSubmit={handleSubmit(sendEmail)}>
          <div className="row">
             <div className="col-lg-6">
-               <label>Your Name*</label>
-               <input type="text" {...register("user_name")} placeholder="Your Name*" />
+               <label>{t('contactForm.yourName')}</label>
+               <input type="text" {...register("user_name")} placeholder={t('contactForm.yourName')} />
                <p className="form_error">{errors.user_name?.message}</p>
             </div>
             <div className="col-lg-6">
-               <label>Your Email*</label>
-               <input type="email" {...register("user_email")} placeholder="Your Email*" />
+               <label>{t('contactForm.yourEmail')}</label>
+               <input type="email" {...register("user_email")} placeholder={t('contactForm.yourEmail')} />
                <p className="form_error">{errors.user_email?.message}</p>
             </div>
             <div className="col-lg-6">
-               <label>Your Phone*</label>
-               <input type="tel" {...register("user_phone")} placeholder="Your Phone*" />
+               <label>{t('contactForm.yourPhone')}</label>
+               <input type="tel" {...register("user_phone")} placeholder={t('contactForm.yourPhone')} />
                <p className="form_error">{errors.user_phone?.message}</p>
             </div>
             <div className="col-lg-6">
-               <label>Subject*</label>
-               <input type="text" {...register("subject")} placeholder="Subject"  />
+               <label>{t('contactForm.subject')}</label>
+               <input type="text" {...register("subject")} placeholder={t('contactForm.subject')} />
                <p className="form_error">{errors.subject?.message}</p>
             </div>
             <div className="col-lg-12">
-               <label>Your Message*</label>
-               <textarea {...register("message")} placeholder="Write Message"></textarea>
+               <label>{t('contactForm.yourMessage')}</label>
+               <textarea {...register("message")} placeholder={t('contactForm.writePlaceholder')}></textarea>
                <p className="form_error">{errors.message?.message}</p>
             </div>
             <div className="col-lg-12">
                <button type="submit" className="primary-btn-1 btn-hover">
-                  Send Now &nbsp; | <i className="icon-right-arrow"></i>
+                  {t('contactForm.sendNow')} &nbsp; | <i className="icon-right-arrow"></i>
                   <span style={{ top: "147.172px", left: "108.5px" }}></span>
                </button>
             </div>

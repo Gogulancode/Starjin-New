@@ -98,7 +98,7 @@ const FaqArea = () => {
                            out to our team. We’ll make
                            sure you get the clarity you need to move forward with confidence.
                         </p>
-                        <Link to="/faqs" className="theme-btn style1 pe-20">
+                        <Link to="/contact" className="theme-btn style1 pe-20">
                            <i className="fa-solid fa-arrow-right w-36 h-36 bg-white rounded-circle d-center fz-14 theme-clr4"></i>
                            Check All Questions
                         </Link>

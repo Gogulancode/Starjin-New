@@ -18,6 +18,7 @@ const AppNavigation = () => {
   return (
     <Router>
       <Suspense fallback={<div style={{ minHeight: '100vh' }} />}>
+        <main id="main-content">
         <Routes>
           <Route path="/" element={<HomeMain />} />
           <Route path="/about" element={<AboutMain />} />
@@ -33,6 +34,7 @@ const AppNavigation = () => {
           <Route path="/cookie-policy" element={<CookiePolicyMain />} />
           <Route path="*" element={<NotFoundMain />} />
         </Routes>
+        </main>
       </Suspense>
     </Router>
   );

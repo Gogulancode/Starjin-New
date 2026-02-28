@@ -1183,5 +1183,21 @@
       "section6Title": "문의하기",
       "section6Text": "쿠키 사용에 관한 질문은 contact@starajin.com으로 문의해 주십시오."
     }
+  },
+  "error": {
+    "title": "죄송합니다! 페이지를 찾을 수 없습니다.",
+    "description": "찾으시는 페이지가 이동, 삭제, 이름 변경되었거나 존재하지 않습니다.",
+    "goHome": "홈으로 이동"
+  },
+  "contactForm": {
+    "yourName": "이름*",
+    "yourEmail": "이메일*",
+    "yourPhone": "전화번호*",
+    "subject": "제목*",
+    "yourMessage": "메시지*",
+    "writePlaceholder": "메시지를 작성해 주세요",
+    "sendNow": "보내기",
+    "successMessage": "메시지가 성공적으로 전송되었습니다",
+    "errorMessage": "메시지 전송에 실패했습니다"
   }
 }

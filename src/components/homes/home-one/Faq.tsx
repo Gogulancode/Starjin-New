@@ -57,7 +57,7 @@ const Faq = () => {
                </div>
                <div className="col-lg-6 col-md-5">
                   <div className="text-md-end wow fadeInUp" data-wow-delay=".4s">
-                     <Link to="/faqs" className="theme-btn style1 pe-20">
+                     <Link to="/contact" className="theme-btn style1 pe-20">
                         <i
                            className="fa-solid fa-arrow-right w-36 h-36 bg-white rounded-circle d-center fz-14 theme-clr4"></i>
                         Check All Questions
@@ -100,7 +100,7 @@ const Faq = () => {
                         out to our team. We'll make
                         sure you get the clarity you need to move forward with confidence.
                      </p>
-                     <Link to="/faqs" className="theme-btn style1 pe-20">
+                     <Link to="/contact" className="theme-btn style1 pe-20">
                         <i
                            className="fa-solid fa-arrow-right w-36 h-36 bg-white rounded-circle d-center fz-14 theme-clr4"></i>
                         Check All Questions

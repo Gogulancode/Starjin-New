@@ -16,15 +16,15 @@ const ContactInfoTwo = () => {
          id: 1,
          title: t('contact.offices.korea.title'),
          desc: t('contact.offices.korea.location'),
-         number: "+82-2-1234-5678",
-         email: "korea@starajin.com"
+         number: t('footer.koreaPhone'),
+         email: t('footer.koreaEmail')
       },
       {
          id: 2,
-         title: t('contact.offices.india.title'), 
+         title: t('contact.offices.india.title'),
          desc: t('contact.offices.india.location'),
-         number: "+91-22-9876-5432",
-         email: "india@starajin.com"
+         number: t('footer.indiaPhone'),
+         email: t('footer.indiaEmail')
       }
    ]
 

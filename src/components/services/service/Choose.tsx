@@ -104,7 +104,7 @@ const Choose = () => {
                                  </div>
                                  <div>
                                     <h4 className="mb-2">
-                                       <Link to="/case-details" className="theme-clr4 fw-600">{t(item.titleKey)}</Link>
+                                       <Link to="/services" className="theme-clr4 fw-600">{t(item.titleKey)}</Link>
                                     </h4>
                                     <p className="black-clr">{t(item.descKey)}</p>
                                  </div>

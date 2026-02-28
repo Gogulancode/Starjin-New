@@ -36,12 +36,11 @@ const HomeContactForm = () => {
          emailjs.sendForm('service_yvmrs1n', 'template_mg697cv',
             form.current, 'OB0j1AZNx8_U5GsHk')
             .then((result) => {
-               const notify = () => toast('Message sent successfully', { position: 'top-center' });
-               notify();
+               toast(t('contactForm.successMessage'), { position: 'top-center' });
                reset();
                void result;
             }, () => {
-               toast('Failed to send message', { position: 'top-center' });
+               toast(t('contactForm.errorMessage'), { position: 'top-center' });
             });
       } else {
          // Form ref not available
