@@ -40,7 +40,7 @@ const Blog = () => {
                                  "/assets/img/blog/Korean startups exploring Indian market.png",
                                  "/assets/img/blog/Cultural Exchange Programs Show Promising Results.png"
                               ];
-                              return <img src={blogImages[index] || blogImages[0]} alt="img" className="w-100 rounded-bottom-3" loading="lazy" style={{height: '200px', objectFit: 'cover'}} />;
+                              return <img src={blogImages[index] || blogImages[0]} alt="img" className="w-100 rounded-bottom-3" loading="lazy" style={{height: '220px', objectFit: 'contain'}} />;
                            })()}
                         </div>
                         <div className="content d-flex align-items-end gap-3 justify-content-between">
