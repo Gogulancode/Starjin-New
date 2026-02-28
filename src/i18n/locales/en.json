@@ -203,10 +203,8 @@
     "filters": {
       "all": "All Projects",
       "mou": "MoUs & Partnerships",
-      "cultural": "Cultural Exchange",
-      "publication": "Publications",
-      "tour": "Tours & Roadshows",
-      "b2b": "B2B & Events"
+      "b2b": "B2B Platforms & Facilitation",
+      "cultural": "Cultural Exchange & Marketing"
     },
     "stats": {
       "title": "Our Impact",
@@ -227,10 +225,8 @@
     },
     "categories": {
       "mou": "MOU / PARTNERSHIP",
-      "cultural": "CULTURAL",
-      "publication": "PUBLICATION",
-      "tour": "TOUR / ROADSHOW",
-      "b2b": "B2B / EVENT"
+      "cultural": "CULTURAL EXCHANGE & MARKETING",
+      "b2b": "B2B PLATFORM & FACILITATION"
     },
     "items": [
       {
@@ -530,7 +526,7 @@
     "mainSubtitle": "Business Collaboration",
     "stats": [
       {
-        "number": "50+",
+        "number": "20+",
         "label": "Led G2B & B2B MoU signing",
         "description": "Business Entry & network creation",
         "items": [
@@ -540,18 +536,7 @@
         ]
       },
       {
-        "number": "₹500Cr+",
-        "label": "Cultural Exchange Projects",
-        "description": "",
-        "items": [
-          "KOFICE Local Culture international Exchange project",
-          "Launching Indian Bestseller Book <Super 30>, translated in Korean",
-          "Organized <Korea Edu Tour 2025, Pune>, Networking with Educationist",
-          "Advisor of <India-Korea Artist Camp> organized by Namisland Culture and education group"
-        ]
-      },
-      {
-        "number": "25+",
+        "number": "50+",
         "label": "Various Business Consulting cases",
         "description": "",
         "items": [
@@ -559,11 +544,22 @@
           "JV Partner Due Diligence : 2+ / New Business plan consultation : 10+",
           "Opinion Lead(Seminar / Speaker / Column report / Market report) : 100+"
         ]
+      },
+      {
+        "number": "₹500Cr+",
+        "label": "Cultural & Training Exchange Projects",
+        "description": "",
+        "items": [
+          "KOFICE Local Culture international Exchange project",
+          "Launching Indian Bestseller Book <Super 30>, translated in Korean",
+          "Organized <Korea Edu Tour 2025, Pune>, Networking with Educationist",
+          "Advisor of <India-Korea Artist Camp> organized by Namisland Culture and education group"
+        ]
       }
     ],
     "bottomStats": {
-      "mous": { "number": "50+", "label": "Strategic MoUs Signed" },
-      "consulting": { "number": "25+", "label": "Consulting Projects" },
+      "mous": { "number": "20+", "label": "Strategic MoUs Signed" },
+      "consulting": { "number": "50+", "label": "Consulting Projects" },
       "partners": { "number": "100+", "label": "Partner Matches" }
     }
   },
@@ -830,7 +826,7 @@
     }
   },
   "partners": {
-    "title": "Trust & Partnership",
+    "title": "Key Clients & Partnerships",
     "subtitle": "CLIENTS",
     "description": "Building lasting relationships with leading organizations across Korea and India"
   },

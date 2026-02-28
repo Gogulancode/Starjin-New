@@ -19,17 +19,17 @@ const KeyAchievements = () => {
     {
       icon: "fa-solid fa-handshake",
       gradient: "linear-gradient(135deg, var(--theme) 0%, var(--theme3) 100%)",
-      image: "/assets/img/projects/verywords-starajin-mou.jpg"
-    },
-    {
-      icon: "fa-solid fa-globe",
-      gradient: "linear-gradient(135deg, var(--theme2) 0%, var(--theme) 100%)",
-      image: "/assets/img/service/Cultural Planning.jpg"
+      image: "/assets/img/projects/MIDC_KOSME_Meeting_2026.jpg"
     },
     {
       icon: "fa-solid fa-briefcase",
       gradient: "linear-gradient(135deg, var(--theme3) 0%, var(--theme) 100%)",
-      image: "/assets/img/service/B2b.jpg"
+      image: "/assets/img/projects/GS_Patanjal Visit_2024_1.jpg"
+    },
+    {
+      icon: "fa-solid fa-globe",
+      gradient: "linear-gradient(135deg, var(--theme2) 0%, var(--theme) 100%)",
+      image: "/assets/img/projects/KTO-Edu-Tour-Roadshow-2025-Pune.jpg"
     }
   ];
 
@@ -78,8 +78,8 @@ const KeyAchievements = () => {
                         height: '100%',
                         display: 'block',
                         objectFit: 'cover',
-                        objectPosition: index === 0 ? 'center 75%' : 'center 30%',
-                        transform: index === 0 ? 'scale(1.15)' : 'none',
+                        objectPosition: index === 0 ? 'center 25%' : 'center 30%',
+                        transform: 'none',
                         imageRendering: 'auto',
                         backfaceVisibility: 'hidden'
                       }}

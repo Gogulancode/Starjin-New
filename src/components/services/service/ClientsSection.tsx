@@ -19,7 +19,6 @@ const clients: Client[] = [
    { name: "GJFEZ", logo: "/assets/img/clients/gjfez.jpg" },
    { name: "R&F Chemical", logo: "/assets/img/clients/rf-chemical.png" },
    { name: "Miretech", logo: "/assets/img/clients/miretech.png" },
-   { name: "Sekyung", logo: "/assets/img/clients/sekyung.png" },
    { name: "Ecowave", logo: "/assets/img/clients/ecowave.jpg" },
    { name: "The Plan G", logo: "/assets/img/clients/the-plan-g.jpeg" },
    { name: "Ambani Tiles", logo: "/assets/img/clients/ambani-tiles.png" },
@@ -27,10 +26,19 @@ const clients: Client[] = [
    { name: "Maison India", logo: "/assets/img/clients/maison-india.jpg" },
    { name: "E4com", logo: "/assets/img/clients/e4com.jpeg" },
    { name: "YW Mobile", logo: "/assets/img/clients/yw-mobile.png" },
-   { name: "Cursus Bio", logo: "/assets/img/clients/cursus-bio.jpeg" },
    { name: "REM Magnetics", logo: "/assets/img/clients/rem-magnetics.png" },
    { name: "Buja Tape", logo: "/assets/img/clients/buja-tape.jpeg" },
    { name: "Softberry", logo: "/assets/img/clients/softberry.avif" },
+   { name: "ICCK", logo: "/assets/img/clients/icck.jpg" },
+   { name: "Sogang University", logo: "/assets/img/clients/Sogang University.png" },
+   { name: "Korea Press Foundation", logo: "/assets/img/clients/Korea Press Foundation.jpg" },
+   { name: "OKTA", logo: "/assets/img/clients/OKTA.png" },
+   { name: "Zillinks", logo: "/assets/img/clients/Zillinks.png" },
+   { name: "Socialerus", logo: "/assets/img/clients/Socialerus.png" },
+   { name: "Estech", logo: "/assets/img/clients/Estech.png" },
+   { name: "Ecosian", logo: "/assets/img/clients/Ecosian.jpeg" },
+   { name: "Alfa Laval", logo: "/assets/img/clients/Alfa Laval.png" },
+   { name: "Posco International", logo: "/assets/img/clients/Posco International.png" },
 ];
 
 const ClientsSection = () => {

@@ -65,7 +65,7 @@ const projects_meta: ProjectMeta[] = [
       id: 7,
       thumb: "/assets/img/projects/super-30-publication-icck.jpg",
       gallery: ["/assets/img/projects/super-30-book-concert.jpg", "/assets/img/projects/super-30-anand-kumar.jpg", "/assets/img/projects/super-30-book-concert-1.jpg", "/assets/img/projects/super-30-original-book.jpg"],
-      category: "publication",
+      category: "cultural",
       date: "2025-01-20",
       participants: 300,
    },
@@ -73,7 +73,7 @@ const projects_meta: ProjectMeta[] = [
       id: 8,
       thumb: "/assets/img/projects/kto-edutour-pune.jpg",
       gallery: ["/assets/img/projects/kto-edutour-hyd.jpg", "/assets/img/projects/kto-roadshow-hyd.jpg"],
-      category: "tour",
+      category: "cultural",
       date: "2025-04-15",
       participants: 250,
    },
@@ -114,10 +114,8 @@ const projects_meta: ProjectMeta[] = [
 const categories = [
    { key: 'all', label: 'projects.filters.all' },
    { key: 'mou', label: 'projects.filters.mou' },
-   { key: 'cultural', label: 'projects.filters.cultural' },
-   { key: 'publication', label: 'projects.filters.publication' },
-   { key: 'tour', label: 'projects.filters.tour' },
    { key: 'b2b', label: 'projects.filters.b2b' },
+   { key: 'cultural', label: 'projects.filters.cultural' },
 ];
 
 const ProjectsArea = () => {
