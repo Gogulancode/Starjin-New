@@ -563,6 +563,7 @@
   max-width: 110px !important;
   height: auto !important;
   display: block;
+  filter: brightness(0.7) contrast(1.2);
 }
 
 /* ── Nav links ── */
