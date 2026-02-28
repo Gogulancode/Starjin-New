@@ -36,8 +36,8 @@ const ContactForm = () => {
 
    const sendEmail = () => {
       if (form.current) {
-         emailjs.sendForm('service_6y6yqwk', 'template_l7vv1mg',
-            form.current, '0Nl20_gGiZ8xlkEt9')
+         emailjs.sendForm('service_yvmrs1n', 'template_mg697cv',
+            form.current, 'OB0j1AZNx8_U5GsHk')
             .then((result) => {
                const notify = () => toast('Message sent successfully', { position: 'top-center' });
                notify();
