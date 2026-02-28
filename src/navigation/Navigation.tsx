@@ -1,5 +1,23 @@
-import { lazy, Suspense } from 'react';
-import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+import { lazy, Suspense, useEffect } from 'react';
+import { Route, BrowserRouter as Router, Routes, useLocation } from 'react-router-dom';
+
+declare global {
+  interface Window {
+    gtag?: (...args: unknown[]) => void;
+  }
+}
+
+const RouteTracker = () => {
+  const location = useLocation();
+  useEffect(() => {
+    if (window.gtag) {
+      window.gtag('config', 'G-15RLTMB4XG', {
+        page_path: location.pathname + location.search,
+      });
+    }
+  }, [location]);
+  return null;
+};
 
 const HomeMain = lazy(() => import('../pages/HomeMain'));
 const AboutMain = lazy(() => import('../pages/AboutMain'));
@@ -17,6 +35,7 @@ const NotFoundMain = lazy(() => import('../pages/NotFoundMain'));
 const AppNavigation = () => {
   return (
     <Router>
+      <RouteTracker />
       <Suspense fallback={<div style={{ minHeight: '100vh' }} />}>
         <main id="main-content">
         <Routes>
