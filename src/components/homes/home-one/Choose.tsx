@@ -74,7 +74,7 @@ const Choose = () => {
                            </h2>
                         </div>
                         <div className="thumb rounded-3 position-relative w-100 " >
-                           <img src="/assets/img/about/choose-whay.png" alt="img" className="w-100 rounded-3" loading="lazy" />
+                           <img src="/assets/img/about/Choose one - 4.png" alt="img" className="w-100 rounded-3" loading="lazy" />
                         </div>
                      </div>
                   </div>

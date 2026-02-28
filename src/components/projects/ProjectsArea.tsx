@@ -8,6 +8,7 @@ interface ProjectMeta {
    category: string;
    date: string;
    participants: number;
+   thumbStyle?: React.CSSProperties;
 }
 
 const projects_meta: ProjectMeta[] = [
@@ -42,6 +43,7 @@ const projects_meta: ProjectMeta[] = [
       category: "mou",
       date: "2025-03-15",
       participants: 60,
+      thumbStyle: { objectPosition: 'top' },
    },
    {
       id: 5,
@@ -82,6 +84,7 @@ const projects_meta: ProjectMeta[] = [
       category: "b2b",
       date: "2024-10-20",
       participants: 180,
+      thumbStyle: { imageOrientation: 'from-image' },
    },
    {
       id: 10,
@@ -425,7 +428,7 @@ const ProjectsArea = () => {
                         <div className="prj-card">
                            {/* Thumbnail */}
                            <div className="prj-card__thumb" onClick={() => openLightbox(allImages, 0)}>
-                              <img src={item.thumb} alt={t(`projects.items.${itemIndex}.title`)} loading="lazy" />
+                              <img src={item.thumb} alt={t(`projects.items.${itemIndex}.title`)} loading="lazy" style={item.thumbStyle} />
                               <div className="prj-card__overlay">
                                  <i className="fa-solid fa-expand" />
                               </div>
