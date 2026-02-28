@@ -1,5 +1,6 @@
 import { lazy, Suspense, useEffect } from 'react';
 import { Route, BrowserRouter as Router, Routes, useLocation } from 'react-router-dom';
+import CookieConsent from '../components/CookieConsent';
 
 declare global {
   interface Window {
@@ -55,6 +56,7 @@ const AppNavigation = () => {
         </Routes>
         </main>
       </Suspense>
+      <CookieConsent />
     </Router>
   );
 };

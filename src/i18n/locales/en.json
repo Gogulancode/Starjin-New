@@ -1216,5 +1216,11 @@
     "sendNow": "Send Now",
     "successMessage": "Message sent successfully",
     "errorMessage": "Failed to send message"
+  },
+  "cookie": {
+    "message": "We use cookies to enhance your experience and analyze site traffic. By continuing to browse, you consent to our use of cookies.",
+    "learnMore": "Learn more",
+    "accept": "Accept",
+    "decline": "Decline"
   }
 }

@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import { useTranslation } from "react-i18next";
 
 interface SEOProps {
   pageTitle: string;
@@ -13,15 +14,21 @@ const DEFAULT_KEYWORDS = "Korea-India business consulting, India market entry fo
 const SITE_URL = "https://www.starajin.com";
 
 const SEO = ({ pageTitle, description = DEFAULT_DESC, keywords = DEFAULT_KEYWORDS, ogImage = "/assets/img/logo/Starajin LogoX3.png" }: SEOProps) => {
+  const { i18n } = useTranslation();
+  const currentLang = i18n.language?.startsWith("ko") ? "ko" : "en";
   const fullTitle = `${pageTitle} | StaraJIN — Korea-India Business Consulting`;
   const canonicalUrl = `${SITE_URL}${window.location.pathname}`;
   const absoluteOgImage = ogImage.startsWith("http") ? ogImage : `${SITE_URL}${ogImage}`;
 
   return (
     <Helmet>
+      <html lang={currentLang} />
       <meta charSet="utf-8" />
       <title>{fullTitle}</title>
       <link rel="canonical" href={canonicalUrl} />
+      <link rel="alternate" hrefLang="en" href={canonicalUrl} />
+      <link rel="alternate" hrefLang="ko" href={canonicalUrl} />
+      <link rel="alternate" hrefLang="x-default" href={canonicalUrl} />
       <meta name="robots" content="index, follow" />
       <meta name="description" content={description} />
       <meta name="keywords" content={keywords} />
@@ -33,6 +40,7 @@ const SEO = ({ pageTitle, description = DEFAULT_DESC, keywords = DEFAULT_KEYWORD
       <meta property="og:image" content={absoluteOgImage} />
       <meta property="og:url" content={canonicalUrl} />
       <meta property="og:site_name" content="StaraJIN" />
+      <meta property="og:locale" content={currentLang === "ko" ? "ko_KR" : "en_US"} />
       {/* Twitter Card */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={fullTitle} />
