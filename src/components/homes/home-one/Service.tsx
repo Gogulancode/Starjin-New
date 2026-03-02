@@ -13,7 +13,7 @@ const service_data: DataType[] = [
    {
       id: 1,
       icon: "fa-solid fa-handshake",
-      thumb: "/assets/img/service/Our Service- 1.png",
+      thumb: "/assets/img/service/India Market Entry Consulting.png",
       titleKey: "services.items.0.title",
       descKey: "services.items.0.description"
    },
