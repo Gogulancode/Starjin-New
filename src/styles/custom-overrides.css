@@ -732,12 +732,6 @@
 .header-support-chip:hover .header-support-chip__icon {
   transform: scale(1.08);
 }
-.header-support-chip__icon .header-support-icon--kakao {
-  font-weight: 800;
-  font-size: 14px;
-  color: #fff;
-  background: transparent;
-}
 .header-support-chip__text {
   display: flex;
   flex-direction: column;

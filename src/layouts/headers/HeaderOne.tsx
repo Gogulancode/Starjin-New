@@ -97,7 +97,7 @@ const HeaderOne = () => {
                         >
                            <span className="header-support-chip__icon" aria-hidden="true">
                               {isKorean ? (
-                                 <span className="header-support-icon--kakao">K</span>
+                                 <img src="/assets/img/icon/KakaoTalk_logo.svg" alt="KakaoTalk" width="30" height="30" aria-hidden="true" style={{ borderRadius: '50%', display: 'block' }} />
                               ) : (
                                  <i className="fa-brands fa-whatsapp"></i>
                               )}

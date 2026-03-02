@@ -110,7 +110,7 @@ const InnerHeader = () => {
                            rel="noreferrer"
                         >
                            {isKorean ? (
-                              <span className="header-support-icon--kakao" aria-hidden="true">K</span>
+                              <img src="/assets/img/icon/KakaoTalk_logo.svg" alt="KakaoTalk" width="30" height="30" aria-hidden="true" style={{ borderRadius: '50%', display: 'block' }} />
                            ) : (
                               <i className="fa-brands fa-whatsapp" aria-hidden="true"></i>
                            )}

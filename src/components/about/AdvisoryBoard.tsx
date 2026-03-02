@@ -14,13 +14,6 @@ const AdvisoryBoard = () => {
 
    const advisoryMembers: AdvisoryMember[] = [
       {
-         id: 1,
-         image: "/assets/img/advisory/anil-sinha.png",
-         nameKey: "about.advisory.members.anil.name",
-         designationKey: "about.advisory.members.anil.designation",
-         organizationKey: "about.advisory.members.anil.organization"
-      },
-      {
          id: 2,
          image: "/assets/img/advisory/girish-desai.jpeg",
          nameKey: "about.advisory.members.girish.name",
