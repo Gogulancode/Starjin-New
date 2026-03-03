@@ -97,7 +97,7 @@ const projects_meta: ProjectMeta[] = [
       thumb: "/assets/img/projects/KOIMA_B2B matching Forum_2023.jpg",
       gallery: ["/assets/img/projects/KOIMA_B2B Meeting Forum_2023_3.jpg", "/assets/img/projects/Rossari in Korea_1.jpg"],
       category: "b2b",
-      date: "2025-10-27",
+      date: "2023-09-01",
       participants: 200,
    },
    {
@@ -150,7 +150,7 @@ const categories = [
 ];
 
 const ProjectsArea = () => {
-   const { t, i18n } = useTranslation()
+   const { t } = useTranslation()
    const [activeFilter, setActiveFilter] = useState('all')
    const [lightbox, setLightbox] = useState<{ images: string[]; index: number } | null>(null)
 
@@ -159,13 +159,6 @@ const ProjectsArea = () => {
       : projects_meta.filter(project => project.category === activeFilter)
    ).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
 
-   const formatDate = (dateString: string) => {
-      const locale = i18n.language === 'ko' ? 'ko-KR' : 'en-US';
-      return new Date(dateString).toLocaleDateString(locale, {
-         year: 'numeric',
-         month: 'short',
-      })
-   }
 
    const openLightbox = (images: string[], index: number) => {
       setLightbox({ images, index });
@@ -473,16 +466,6 @@ const ProjectsArea = () => {
                               <p className="prj-card__desc">
                                  {t(`projects.items.${itemIndex}.description`)}
                               </p>
-                              <div className="prj-card__meta">
-                                 <span>
-                                    <i className="fa-solid fa-calendar" />
-                                    {formatDate(item.date)}
-                                 </span>
-                                 <span>
-                                    <i className="fa-solid fa-location-dot" />
-                                    {t(`projects.items.${itemIndex}.location`)}
-                                 </span>
-                              </div>
                            </div>
 
                            {/* Gallery strip */}
