@@ -13,7 +13,7 @@ const Solution = () => {
    const solution_data: DataType[] = [
       {
          id: 1,
-         date: "2017-2018",
+         date: "2008-2018",
          title: t('about.solution.timeline.2017.title'),
          desc: t('about.solution.timeline.2017.desc'),
       },
